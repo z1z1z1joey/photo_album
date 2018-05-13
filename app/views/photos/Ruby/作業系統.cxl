@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>&#x4f5c;&#x696d;&#x7cfb;&#x7d71;</dc:title>
+        <dc:creator>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2017-10-22T09:40:16+08:00</dcterms:created>
+        <dcterms:modified>2017-10-24T12:07:51+08:00</dcterms:modified>
+        <dc:language>zh</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.02</dc:publisher>
+        <dc:extent>9408 bytes</dc:extent>
+        <dc:source>cmap:1RSTDZRDM-134H5P-1:1RSTDZSST-15FB061-Z:1RTVT4TW4-1P83KDR-BH8</dc:source>
+    </res-meta>
+    <map width="674" height="541">
+        <concept-list>
+            <concept id="1RTVT6N6P-1D360N5-BWR" label="&#x5b89;&#x88dd;&#x6307;&#x4ee4;" short-comment="$ brew install ruby" long-comment="" group-order="0"/>
+            <concept id="1RTVT6N6P-2G70TX-BWP" parent-id="1RTVT6N6P-191K7HL-BW3" label="&#x5b89;&#x88dd;Ruby Installer" group-order="3"/>
+            <concept id="1RTVT6N6Q-4LB3SB-BZD" parent-id="1RTVT6N6P-191K7HL-BW3" label="Windows" group-order="12"/>
+            <concept id="1RTVT6N6Q-1KYWBN7-BZ0" parent-id="1RTVT6N6P-191K7HL-BW3" label="CentOS" short-comment="$ sudo yum install ruby" long-comment="" group-order="10"/>
+            <concept id="1RTVT6N6Q-1MBN4PP-BYT" parent-id="1RTVT6N6P-191K7HL-BW3" label="Ubuntu" short-comment="&#xff04;sudo apt-get install ruby" long-comment="" group-order="9"/>
+            <concept id="1RTVT6N6Q-262HY18-BZL" parent-id="1RTVT6N6P-191K7HL-BW3" label="Mac OS" group-order="13"/>
+            <concept id="1RTVT6N6P-SB2SQ3-BWJ" label="&#x5167;&#x5efa;Ruby 2.0" group-order="0"/>
+            <concept id="1RTVT6N6Q-2CT02X1-BYZ" label="Ubuntu" short-comment="&#xff04;sudo apt-get install ruby" long-comment="" group-order="0"/>
+            <concept id="1RTVT6N6Q-24G1M0T-BZR" label="Mac OS" group-order="0"/>
+            <concept id="1RTVT6N6Q-MDCL2Z-BZ6" parent-id="1RTVT6N6P-191K7HL-BW3" label="Unix/Linux" group-order="11"/>
+            <concept id="1RTVT6N6Q-1H91FZ0-BZY" label="&#x4f5c;&#x696d;&#x7cfb;&#x7d71;"/>
+            <concept id="1RTVT6N6Q-1WRNTL0-BZK" label="Windows" group-order="0"/>
+            <concept id="1RTVT6N6Q-HGG882-BZC" label="Unix/Linux" group-order="0"/>
+            <concept id="1RTVT6N6P-Z6RYZR-BWZ" label="&#x5b89;&#x88dd;Ruby Installer" group-order="0"/>
+            <concept id="1RTVT6N6Q-1K3GTFH-BY5" label="&#x5b89;&#x88dd;Rails Installer" group-order="0"/>
+            <concept id="1RTVT6N6P-24WF384-BW9" parent-id="1RTVT6N6P-191K7HL-BW3" label="&#x5167;&#x5efa;Ruby 2.0" group-order="1"/>
+            <concept id="1RTVT6N6Q-1538H7X-BZX" label="&#x4f5c;&#x696d;&#x7cfb;&#x7d71;"/>
+            <concept id="1RTVT6N6P-1VS5CP3-BXY" parent-id="1RTVT6N6P-191K7HL-BW3" label="&#x5b89;&#x88dd;Rails Installer" group-order="7"/>
+            <concept id="1RTVT6N6Q-1GW6QXL-BZ5" label="CentOS" short-comment="$ sudo yum install ruby" long-comment="" group-order="0"/>
+            <concept id="1RTVT6N6P-1P92DXL-BW7" label="&#x9019;&#x4e9b;&#xa;&#x7a2e;&#x985e;"/>
+            <concept id="1RTVT6N6P-GL1HPR-BWH" parent-id="1RTVT6N6P-191K7HL-BW3" label="&#x5b89;&#x88dd;&#x6307;&#x4ee4;" short-comment="$ brew install ruby" long-comment="" group-order="2"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RTVT6N6P-2DYPKFG-BXZ" label="&#x9700;" group-order="0"/>
+            <linking-phrase id="1RTVT6N6R-155RLRB-C4F" label="&#x6709;" group-order="0"/>
+            <linking-phrase id="1RTVT6N6P-1JRLSH7-BXS" label="&#x7684;" group-order="0"/>
+            <linking-phrase id="1RTVT6N6P-JM3MN3-BXD" parent-id="1RTVT6N6P-191K7HL-BW3" label="&#x901a;&#x5e38;" group-order="4"/>
+            <linking-phrase id="1RTVT6N6P-1PK8QM3-BXK" label="&#x901a;&#x5e38;" group-order="0"/>
+            <linking-phrase id="1RTVT6N6R-18V5CNC-C4D" label="&#x6709;" group-order="0"/>
+            <linking-phrase id="1RTVT6N6P-2DP3V7P-BXR" parent-id="1RTVT6N6P-191K7HL-BW3" label="&#x9700;" group-order="6"/>
+            <linking-phrase id="1RTVT6N6P-LNN1X8-BXL" parent-id="1RTVT6N6P-191K7HL-BW3" label="&#x7684;" group-order="5"/>
+            <linking-phrase id="1RTVT6N6Q-8KQ074-BYM" parent-id="1RTVT6N6P-191K7HL-BW3" label="&#x4f8b;&#x5982;" group-order="8"/>
+            <linking-phrase id="1RTVT6N6Q-HWSG1B-BYS" label="&#x4f8b;&#x5982;" group-order="0"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RTVT6N6Q-11534RB-C0L" from-id="1RTVT6N6Q-8KQ074-BYM" to-id="1RTVT6N6Q-1MBN4PP-BYT"/>
+            <connection id="1RTVT6N6R-25NP6G-C25" from-id="1RTVT6N6Q-1WRNTL0-BZK" to-id="1RTVT6N6P-2DYPKFG-BXZ"/>
+            <connection id="1RTVT6N6R-Z61KHR-C2J" from-id="1RTVT6N6P-JM3MN3-BXD" to-id="1RTVT6N6P-24WF384-BW9"/>
+            <connection id="1RTVT6N6R-3H75RQ-C41" from-id="1RTVT6N6R-155RLRB-C4F" to-id="1RTVT6N6Q-HGG882-BZC"/>
+            <connection id="1RTVT6N6R-WJN9QT-C2X" from-id="1RTVT6N6Q-262HY18-BZL" to-id="1RTVT6N6P-JM3MN3-BXD"/>
+            <connection id="1RTVT6N6R-J8656V-C1C" from-id="1RTVT6N6P-2DYPKFG-BXZ" to-id="1RTVT6N6Q-1K3GTFH-BY5"/>
+            <connection id="1RTVT6N6R-7F5053-C3Q" from-id="1RTVT6N6Q-24G1M0T-BZR" to-id="1RTVT6N6P-1JRLSH7-BXS"/>
+            <connection id="1RTVT6N6R-22MRB6V-C4M" from-id="1RTVT6N6R-155RLRB-C4F" to-id="1RTVT6N6Q-1WRNTL0-BZK"/>
+            <connection id="1RTVT6N6R-29LJSVX-C3P" from-id="1RTVT6N6Q-262HY18-BZL" to-id="1RTVT6N6P-LNN1X8-BXL"/>
+            <connection id="1RTVT6N6R-T89YV8-C40" from-id="1RTVT6N6R-18V5CNC-C4D" to-id="1RTVT6N6Q-MDCL2Z-BZ6"/>
+            <connection id="1RTVT6N6R-BFRB96-C4L" from-id="1RTVT6N6R-18V5CNC-C4D" to-id="1RTVT6N6Q-4LB3SB-BZD"/>
+            <connection id="1RTVT6N6R-18YHDZK-C2K" from-id="1RTVT6N6P-1PK8QM3-BXK" to-id="1RTVT6N6P-SB2SQ3-BWJ"/>
+            <connection id="1RTVT6N6R-227SRNR-C39" from-id="1RTVT6N6P-LNN1X8-BXL" to-id="1RTVT6N6P-GL1HPR-BWH"/>
+            <connection id="1RTVT6N6Q-12H2VFP-C0K" from-id="1RTVT6N6Q-HWSG1B-BYS" to-id="1RTVT6N6Q-2CT02X1-BYZ"/>
+            <connection id="1RTVT6N6R-141P69Y-C50" from-id="1RTVT6N6R-155RLRB-C4F" to-id="1RTVT6N6Q-24G1M0T-BZR"/>
+            <connection id="1RTVT6N6R-22MGR3Z-C5D" from-id="1RTVT6N6Q-1H91FZ0-BZY" to-id="1RTVT6N6R-155RLRB-C4F"/>
+            <connection id="1RTVT6N6Q-1K1J7P7-C0Y" from-id="1RTVT6N6Q-HGG882-BZC" to-id="1RTVT6N6Q-HWSG1B-BYS"/>
+            <connection id="1RTVT6N6R-5YLJXZ-C2Y" from-id="1RTVT6N6Q-24G1M0T-BZR" to-id="1RTVT6N6P-1PK8QM3-BXK"/>
+            <connection id="1RTVT6N6R-1PWZYHR-C24" from-id="1RTVT6N6Q-4LB3SB-BZD" to-id="1RTVT6N6P-2DP3V7P-BXR"/>
+            <connection id="1RTVT6N6R-1GB7BL3-C1R" from-id="1RTVT6N6P-2DP3V7P-BXR" to-id="1RTVT6N6P-2G70TX-BWP"/>
+            <connection id="1RTVT6N6R-16V60S-C4Z" from-id="1RTVT6N6R-18V5CNC-C4D" to-id="1RTVT6N6Q-262HY18-BZL"/>
+            <connection id="1RTVT6N6R-28PFHSW-C5C" from-id="1RTVT6N6Q-1538H7X-BZX" to-id="1RTVT6N6R-18V5CNC-C4D"/>
+            <connection id="1RTVT6N6R-GW40PV-C1D" from-id="1RTVT6N6P-2DP3V7P-BXR" to-id="1RTVT6N6P-1VS5CP3-BXY"/>
+            <connection id="1RTVT6N6R-1NCGZF1-C3B" from-id="1RTVT6N6P-1JRLSH7-BXS" to-id="1RTVT6N6P-1D360N5-BWR"/>
+            <connection id="1RTVT6N6Q-15H1HPF-C03" from-id="1RTVT6N6Q-8KQ074-BYM" to-id="1RTVT6N6Q-1KYWBN7-BZ0"/>
+            <connection id="1RTVT6N6Q-106BL1R-C0Z" from-id="1RTVT6N6Q-MDCL2Z-BZ6" to-id="1RTVT6N6Q-8KQ074-BYM"/>
+            <connection id="1RTVT6N6R-124XWS9-C1S" from-id="1RTVT6N6P-2DYPKFG-BXZ" to-id="1RTVT6N6P-Z6RYZR-BWZ"/>
+        </connection-list>
+        <resource-group-list>
+            <resource-group parent-id="1RTVT6N6P-2G70TX-BWP" group-type="text-and-image">
+                <resource id="1RTVT6N6P-1BN6QM-BX4" label="Ruby Installer" description="" resource-name="Ruby Installer" resource-mimetype="text/x-url" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RTT52NC4-1DPHYYK-4RV" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/Ruby Installer.url"/>
+            </resource-group>
+            <resource-group parent-id="1RTVT6N6P-Z6RYZR-BWZ" group-type="text-and-image">
+                <resource id="1RTVT6N6P-279PWZP-BX7" label="Ruby Installer" description="" resource-name="Ruby Installer" resource-mimetype="text/x-url" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RTT52NC4-1DPHYYK-4RV" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/Ruby Installer.url"/>
+            </resource-group>
+            <resource-group parent-id="1RTVT6N6Q-1K3GTFH-BY5" group-type="text-and-image">
+                <resource id="1RTVT6N6Q-CDYVFJ-BYG" label="Rails Installer" description="" resource-name="Rails Installer" resource-mimetype="text/x-url" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RTT5441H-2DJ5DJ2-4TD" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/Rails Installer.url"/>
+            </resource-group>
+            <resource-group parent-id="1RTVT6N6P-1VS5CP3-BXY" group-type="text-and-image">
+                <resource id="1RTVT6N6Q-1P5D9CW-BYC" label="Rails Installer" description="" resource-name="Rails Installer" resource-mimetype="text/x-url" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RTT5441H-2DJ5DJ2-4TD" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/Rails Installer.url"/>
+            </resource-group>
+        </resource-group-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RTVT6N6P-1D360N5-BWR" x="152" y="347" width="64" height="27" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6P-2G70TX-BWP" x="589" y="347" width="124" height="42" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <concept-appearance id="1RTVT6N6Q-4LB3SB-BZD" x="423" y="232" width="70" height="25" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <concept-appearance id="1RTVT6N6Q-1KYWBN7-BZ0" x="239" y="347" width="61" height="25" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <concept-appearance id="1RTVT6N6Q-1MBN4PP-BYT" x="325" y="347" width="60" height="25" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <concept-appearance id="1RTVT6N6Q-262HY18-BZL" x="227" y="232" width="61" height="25" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <concept-appearance id="1RTVT6N6P-SB2SQ3-BWJ" x="48" y="347" width="94" height="28" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6Q-2CT02X1-BYZ" x="325" y="347" width="60" height="25" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6Q-24G1M0T-BZR" x="227" y="232" width="61" height="25" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6Q-MDCL2Z-BZ6" x="323" y="232" width="80" height="27" min-width="42" min-height="3" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <concept-appearance id="1RTVT6N6Q-1H91FZ0-BZY" x="300" y="112" width="64" height="27" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6Q-1WRNTL0-BZK" x="423" y="232" width="70" height="25" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6Q-HGG882-BZC" x="323" y="232" width="80" height="27" min-width="42" min-height="3" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6P-Z6RYZR-BWZ" x="589" y="347" width="124" height="42" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6Q-1K3GTFH-BY5" x="441" y="347" width="122" height="41" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6P-24WF384-BW9" x="48" y="347" width="94" height="28" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <concept-appearance id="1RTVT6N6Q-1538H7X-BZX" x="300" y="112" width="64" height="27" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <concept-appearance id="1RTVT6N6P-1VS5CP3-BXY" x="441" y="347" width="122" height="41" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <concept-appearance id="1RTVT6N6Q-1GW6QXL-BZ5" x="239" y="347" width="61" height="25" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6P-1P92DXL-BW7" x="652" y="616" width="40" height="42" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <concept-appearance id="1RTVT6N6P-GL1HPR-BWH" x="152" y="347" width="64" height="27" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RTVT6N6P-2DYPKFG-BXZ" x="423" y="293" width="14" height="13" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <linking-phrase-appearance id="1RTVT6N6R-155RLRB-C4F" x="300" y="171" width="14" height="13" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <linking-phrase-appearance id="1RTVT6N6P-1JRLSH7-BXS" x="250" y="293" width="14" height="13" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <linking-phrase-appearance id="1RTVT6N6P-JM3MN3-BXD" x="205" y="293" width="26" height="13" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <linking-phrase-appearance id="1RTVT6N6P-1PK8QM3-BXK" x="205" y="293" width="26" height="13" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <linking-phrase-appearance id="1RTVT6N6R-18V5CNC-C4D" x="300" y="171" width="14" height="13" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <linking-phrase-appearance id="1RTVT6N6P-2DP3V7P-BXR" x="423" y="293" width="14" height="13" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <linking-phrase-appearance id="1RTVT6N6P-LNN1X8-BXL" x="250" y="293" width="14" height="13" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <linking-phrase-appearance id="1RTVT6N6Q-8KQ074-BYM" x="323" y="293" width="26" height="13" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <linking-phrase-appearance id="1RTVT6N6Q-HWSG1B-BYS" x="323" y="293" width="26" height="13" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RTVT6N6Q-11534RB-C0L" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6Q-JJ1RFJ-C0S"/>
+            <connection-appearance id="1RTVT6N6R-25NP6G-C25" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <connection-appearance id="1RTVT6N6R-Z61KHR-C2J" from-pos="center" to-pos="top" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6R-3H75RQ-C41" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <connection-appearance id="1RTVT6N6R-WJN9QT-C2X" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6R-J8656V-C1C" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <connection-appearance id="1RTVT6N6R-7F5053-C3Q" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <connection-appearance id="1RTVT6N6R-22MRB6V-C4M" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6R-23YX0HJ-C4T"/>
+            <connection-appearance id="1RTVT6N6R-29LJSVX-C3P" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6R-T89YV8-C40" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6R-BFRB96-C4L" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6R-15CSTZJ-C4S"/>
+            <connection-appearance id="1RTVT6N6R-18YHDZK-C2K" from-pos="center" to-pos="top" type="straight" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <connection-appearance id="1RTVT6N6R-227SRNR-C39" from-pos="center" to-pos="top-right" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6Q-12H2VFP-C0K" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6Q-1467CYJ-C0R"/>
+            <connection-appearance id="1RTVT6N6R-141P69Y-C50" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6R-174CNPR-C56"/>
+            <connection-appearance id="1RTVT6N6R-22MGR3Z-C5D" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <connection-appearance id="1RTVT6N6Q-1K1J7P7-C0Y" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <connection-appearance id="1RTVT6N6R-5YLJXZ-C2Y" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <connection-appearance id="1RTVT6N6R-1PWZYHR-C24" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6R-1GB7BL3-C1R" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6R-1L17G56-C1Y"/>
+            <connection-appearance id="1RTVT6N6R-16V60S-C4Z" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6R-15Z455R-C55"/>
+            <connection-appearance id="1RTVT6N6R-28PFHSW-C5C" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6R-GW40PV-C1D" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6R-1NCGZF1-C3B" from-pos="center" to-pos="top-right" type="straight" stylesheet-id="1RTVT6N6P-1DRCLTJ-BWD"/>
+            <connection-appearance id="1RTVT6N6Q-15H1HPF-C03" from-pos="center" to-pos="top" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6Q-106BL1R-C0Z" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6P-2DG2Y78-BW6"/>
+            <connection-appearance id="1RTVT6N6R-124XWS9-C1S" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVT6N6R-1JWZK8R-C1Z"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6P-1DRCLTJ-BWD">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6P-2DG2Y78-BW6">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6Q-JJ1RFJ-C0S">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6R-23YX0HJ-C4T">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6R-15CSTZJ-C4S">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6Q-1467CYJ-C0R">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6R-174CNPR-C56">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6R-1L17G56-C1Y">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6R-15Z455R-C55">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVT6N6R-1JWZK8R-C1Z">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-properties-list>
+            <properties-list id="1RTVT6N6Q-1P5D9CW-BYC">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/Rails Installer.url"/>
+            </properties-list>
+            <properties-list id="1RTVT6N6P-279PWZP-BX7">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/Ruby Installer.url"/>
+            </properties-list>
+            <properties-list id="1RTVT6N6P-1BN6QM-BX4">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/Ruby Installer.url"/>
+            </properties-list>
+            <properties-list id="1RTVT6N6Q-CDYVFJ-BYG">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/Rails Installer.url"/>
+            </properties-list>
+        </extra-properties-list>
+    </map>
+</cmap>

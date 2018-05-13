@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>&#x4f60;&#x7684;&#x7b2c;&#x4e00;&#x500b; Ruby&#x7a0b;&#x5f0f;</dc:title>
+        <dc:creator>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2017-10-22T10:39:31+08:00</dcterms:created>
+        <dcterms:modified>2017-10-24T12:06:53+08:00</dcterms:modified>
+        <dc:language>zh</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.02</dc:publisher>
+        <dc:extent>5617 bytes</dc:extent>
+        <dc:source>cmap:1RSTDZRDM-134H5P-1:1RSTDZSST-15FB061-Z:1RTVWFS7X-Z6WJT0-GWF</dc:source>
+    </res-meta>
+    <map width="432" height="368">
+        <concept-list>
+            <concept id="1RTVXVV6J-2DJ42SG-HG1" label="print:&#x5370;&#x51fa;&#x4f86;&#xff0c;&#x7dca;&#x63a5;nil&#xa;puts:&#x5370;&#x51fa;&#x4f86;&#xff0c;&#x63db;&#x884c;&#xff0c;&#x5728;&#x8f38;&#x51fa;nil"/>
+            <concept id="1RTVXMN0B-642GM-HC6" label="puts" short-comment="puts&quot;Hello,Ruby&quot;" long-comment=""/>
+            <concept id="1RTVWQ4K4-25T8LXT-H10" label="&#x55ae;&#x884c;&#x7a0b;&#x5f0f;" short-comment="$ ruby -e &quot;puts  'Hello, Ruby' &quot;&#xa;/*&#x7d42;&#x7aef;&#x6a5f;&#x5370;&#x51fa;Hello, Ruby&#x5b57;&#x6a23;*/" long-comment=""/>
+            <concept id="1RTVWQXZ2-19DXVR0-H2L" label="&#x5b58;&#x6210;&#x6a94;&#x6848;"
+                short-comment="&#xff03;&#x6a94;&#x6848;&#x540d;&#x7a31; hello.rb&#xa;puts &quot;Hello,Ruby&quot;&#xa;&#xa;&#x547d;&#x4ee4;&#x5217;&#xff1a;&#xa;&#x8f38;&#x5165; &#xff04;ruby ./hello.rb(&#x8def;&#x5f91;&#x4f4d;&#x7f6e;)" long-comment=""/>
+            <concept id="1RTVXGQXG-106L4SH-H7B" label="irb" short-comment="$irb&#xa;>>puts &quot;Hello,Ruby&quot;" long-comment=""/>
+            <concept id="1RTVWFZK8-T28SR2-GWM" label="&#x4f60;&#x7684;&#x7b2c;&#x4e00;&#x500b;&#xa;Ruby&#x7a0b;&#x5f0f;"/>
+            <concept id="1RTVXM3MJ-15PSFTZ-HBH" label="print" short-comment="print &quot;Hello,Ruby&quot;" long-comment=""/>
+            <concept id="1RTVWMG9R-FQ2M33-GYZ" label="&#x57f7;&#x884c;Ruby&#x7a0b;&#x5f0f;"/>
+            <concept id="1RTVXKLW8-1FVNTJX-H83" label="&#x5370;&#x51fa;Hello,Ruby"/>
+            <concept id="1RTVXMWVY-DD5B5X-HCH" label="p" short-comment="p &quot;Hello,Ruby&quot;" long-comment=""/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RTVWX1BB-1CYP4LG-H4L" label="&#x65b9;&#x6cd5;"/>
+            <linking-phrase id="1RTVXN6XN-1S905XG-HCT" label="&#x8a9e;&#x6cd5;"/>
+            <linking-phrase id="1RTVXWF6N-1DNWYSC-HH8" label="&#x7684;&#x5dee;&#x5225;"/>
+            <linking-phrase id="1RTVWW8D3-29ZJZDF-H2Z" label="&#x600e;&#x9ebc;"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RTVXN6XP-ZK422J-HCX" from-id="1RTVXKLW8-1FVNTJX-H83" to-id="1RTVXN6XN-1S905XG-HCT"/>
+            <connection id="1RTVXN6XP-1BXNGFN-HD3" from-id="1RTVXN6XN-1S905XG-HCT" to-id="1RTVXM3MJ-15PSFTZ-HBH"/>
+            <connection id="1RTVXNVRX-2CL79VK-HFP" from-id="1RTVXN6XN-1S905XG-HCT" to-id="1RTVXMWVY-DD5B5X-HCH"/>
+            <connection id="1RTVXXRQ2-1LRVYW0-HKH" from-id="1RTVXMN0B-642GM-HC6" to-id="1RTVXWF6N-1DNWYSC-HH8"/>
+            <connection id="1RTVWW8D5-1QCG8QT-H39" from-id="1RTVWW8D3-29ZJZDF-H2Z" to-id="1RTVWMG9R-FQ2M33-GYZ"/>
+            <connection id="1RTVWX1BC-1BFGJ54-H4P" from-id="1RTVWMG9R-FQ2M33-GYZ" to-id="1RTVWX1BB-1CYP4LG-H4L"/>
+            <connection id="1RTVXNS0R-7X8WMV-HF9" from-id="1RTVXN6XN-1S905XG-HCT" to-id="1RTVXMN0B-642GM-HC6"/>
+            <connection id="1RTVXG62Q-1BPSH7P-H72" from-id="1RTVWX1BB-1CYP4LG-H4L" to-id="1RTVWQXZ2-19DXVR0-H2L"/>
+            <connection id="1RTVXM04B-GXDML4-HB7" from-id="1RTVWW8D3-29ZJZDF-H2Z" to-id="1RTVXKLW8-1FVNTJX-H83"/>
+            <connection id="1RTVXWF6P-18233JY-HHC" from-id="1RTVXM3MJ-15PSFTZ-HBH" to-id="1RTVXWF6N-1DNWYSC-HH8"/>
+            <connection id="1RTVXWF6P-18G2G08-HHK" from-id="1RTVXWF6N-1DNWYSC-HH8" to-id="1RTVXVV6J-2DJ42SG-HG1"/>
+            <connection id="1RTVWW8D4-2D6W4F8-H33" from-id="1RTVWFZK8-T28SR2-GWM" to-id="1RTVWW8D3-29ZJZDF-H2Z"/>
+            <connection id="1RTVXHBLM-1X2302Q-H7S" from-id="1RTVWX1BB-1CYP4LG-H4L" to-id="1RTVXGQXG-106L4SH-H7B"/>
+            <connection id="1RTVWX1BC-27WJ871-H4W" from-id="1RTVWX1BB-1CYP4LG-H4L" to-id="1RTVWQ4K4-25T8LXT-H10"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RTVXVV6J-2DJ42SG-HG1" x="363" y="369" width="182" height="43"/>
+            <concept-appearance id="1RTVXMN0B-642GM-HC6" x="397" y="259" width="42" height="27"/>
+            <concept-appearance id="1RTVWQ4K4-25T8LXT-H10" x="202" y="259" width="64" height="27" min-width="44" min-height="9"/>
+            <concept-appearance id="1RTVWQXZ2-19DXVR0-H2L" x="113" y="259" width="64" height="27"/>
+            <concept-appearance id="1RTVXGQXG-106L4SH-H7B" x="40" y="259" width="32" height="25"/>
+            <concept-appearance id="1RTVWFZK8-T28SR2-GWM" x="226" y="46" width="76" height="43"/>
+            <concept-appearance id="1RTVXM3MJ-15PSFTZ-HBH" x="329" y="259" width="44" height="27"/>
+            <concept-appearance id="1RTVWMG9R-FQ2M33-GYZ" x="118" y="157" width="95" height="28"/>
+            <concept-appearance id="1RTVXKLW8-1FVNTJX-H83" x="332" y="157" width="105" height="28"/>
+            <concept-appearance id="1RTVXMWVY-DD5B5X-HCH" x="270" y="259" width="23" height="25"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RTVWX1BB-1CYP4LG-H4L" x="118" y="208" width="26" height="13"/>
+            <linking-phrase-appearance id="1RTVXN6XN-1S905XG-HCT" x="332" y="208" width="26" height="13"/>
+            <linking-phrase-appearance id="1RTVXWF6N-1DNWYSC-HH8" x="363" y="310" width="38" height="13"/>
+            <linking-phrase-appearance id="1RTVWW8D3-29ZJZDF-H2Z" x="226" y="105" width="26" height="13"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RTVXN6XP-ZK422J-HCX" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVXN6XP-1BXNGFN-HD3" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVXNVRX-2CL79VK-HFP" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVXXRQ2-1LRVYW0-HKH" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVWW8D5-1QCG8QT-H39" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVWX1BC-1BFGJ54-H4P" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVXNS0R-7X8WMV-HF9" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVXG62Q-1BPSH7P-H72" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVXM04B-GXDML4-HB7" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVXWF6P-18233JY-HHC" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVXWF6P-18G2G08-HHK" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVWW8D4-2D6W4F8-H33" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVXHBLM-1X2302Q-H7S" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTVWX1BC-27WJ871-H4W" from-pos="center" to-pos="center" type="straight"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+    </map>
+</cmap>

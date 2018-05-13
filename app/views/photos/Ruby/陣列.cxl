@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>&#x9663;&#x5217;</dc:title>
+        <dc:creator>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2017-10-24T13:45:26+08:00</dcterms:created>
+        <dcterms:modified>2017-10-24T13:45:26+08:00</dcterms:modified>
+        <dc:language>zh</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.02</dc:publisher>
+        <dc:extent>4299 bytes</dc:extent>
+        <dc:source>cmap:1RSTDZRDM-134H5P-1:1RSTDZSST-15FB061-Z:1RV2C7JTF-DKG1Z2-2FBH</dc:source>
+    </res-meta>
+    <map width="241" height="235">
+        <concept-list>
+            <concept id="1RV2C7LG9-1HX9RX8-2FBT" label="&#x4f7f;&#x7528;Array.new&#x65b9;&#x6cd5;"
+                short-comment="&#x4f8b;&#x5982;&#xff1a;&#xa;p Array.new(5)&#xa;#&#x7522;&#x751f;&#x4e00;&#x500b;&#x64c1;&#x6709;5&#x500b;&#x5143;&#x7d20;&#x4e26;&#x653e;&#x6eff;nil&#x7684;&#x9663;&#x5217;&#xa;#=>[nil,nil,nil,nil,nil]&#xa;&#xa;p Array.new(5,&quot;Ruby&quot;)&#xa;#&#x7522;&#x751f;&#x4e00;&#x500b;&#x64c1;&#x6709;5&#x500b;&#x5143;&#x7d20;&#x653e;&#x6eff;&quot;Ruby&quot;&#x5b57;&#x4e32;&#x7684;&#x9663;&#x5217;&#xa;#=>[&quot;Ruby&quot;,&quot;Ruby&quot;,&quot;Ruby&quot;,&quot;Ruby&quot;,&quot;Ruby&quot;]" long-comment=""/>
+            <concept id="1RV2C7LG9-KNKNVG-2FBX" label="&#x4f7f;&#x7528;&#x65b9;&#x6cd5;"/>
+            <concept id="1RV2C7LG9-J677JK-2FC0" label="&#x9663;&#x5217;"/>
+            <concept id="1RV2C7LG9-BQLK5F-2FBN" label="&#x4f7f;&#x7528;&#x4e2d;&#x62ec;&#x865f;[]" short-comment="&#x4f8b;&#x5982;&#xff1a;&#xa;friends=[&quot;&#x9b6f;&#x592b;&quot;,&quot;&#x90a3;&#x7f8e;&quot;]&#xa;list = [[1,2,3],[4,5,6]]" long-comment=""/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RV2C7LG9-1YCY8FM-2FD9" label="&#x5176;&#x4e8c;"/>
+            <linking-phrase id="1RV2C7LG9-1CTSG9K-2FCF" label="&#x5176;&#x4e00;"/>
+            <linking-phrase id="1RV2C7LGB-5V40P5-2FF7" label="&#x7684;"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RV2C7LG9-1JC58YT-2FCN" from-id="1RV2C7LG9-KNKNVG-2FBX" to-id="1RV2C7LG9-1CTSG9K-2FCF"/>
+            <connection id="1RV2C7LGB-C45RP6-2FDV" from-id="1RV2C7LGB-5V40P5-2FF7" to-id="1RV2C7LG9-KNKNVG-2FBX"/>
+            <connection id="1RV2C7LG9-2BXXMSR-2FCZ" from-id="1RV2C7LG9-1YCY8FM-2FD9" to-id="1RV2C7LG9-BQLK5F-2FBN"/>
+            <connection id="1RV2C7LG9-237K93G-2FC5" from-id="1RV2C7LG9-1CTSG9K-2FCF" to-id="1RV2C7LG9-1HX9RX8-2FBT"/>
+            <connection id="1RV2C7LG9-64Q2SG-2FDJ" from-id="1RV2C7LG9-KNKNVG-2FBX" to-id="1RV2C7LG9-1YCY8FM-2FD9"/>
+            <connection id="1RV2C7LGB-29BPJR8-2FFH" from-id="1RV2C7LG9-J677JK-2FC0" to-id="1RV2C7LGB-5V40P5-2FF7"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RV2C7LG9-1HX9RX8-2FBT" x="220" y="320" width="126" height="28" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <concept-appearance id="1RV2C7LG9-KNKNVG-2FBX" x="155" y="217" width="64" height="27" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <concept-appearance id="1RV2C7LG9-J677JK-2FC0" x="155" y="115" width="40" height="27" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <concept-appearance id="1RV2C7LG9-BQLK5F-2FBN" x="88" y="320" width="87" height="28" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RV2C7LG9-1YCY8FM-2FD9" x="89" y="268" width="26" height="13" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <linking-phrase-appearance id="1RV2C7LG9-1CTSG9K-2FCF" x="220" y="268" width="26" height="13" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <linking-phrase-appearance id="1RV2C7LGB-5V40P5-2FF7" x="155" y="166" width="14" height="13" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RV2C7LG9-1JC58YT-2FCN" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <connection-appearance id="1RV2C7LGB-C45RP6-2FDV" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <connection-appearance id="1RV2C7LG9-2BXXMSR-2FCZ" from-pos="center" to-pos="bottom" type="straight" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <connection-appearance id="1RV2C7LG9-237K93G-2FC5" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <connection-appearance id="1RV2C7LG9-64Q2SG-2FDJ" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+            <connection-appearance id="1RV2C7LGB-29BPJR8-2FFH" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2C7LG9-BKJ88C-2FBR"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RV2C7LG9-BKJ88C-2FBR">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+    </map>
+</cmap>

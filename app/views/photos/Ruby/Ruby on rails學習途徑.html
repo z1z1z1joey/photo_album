@@ -1,0 +1,482 @@
+<HTML>
+<HEAD>
+  <TITLE>Ruby on rails學習途徑.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "陳咨諺, 概念图, cmap, CmapTools, IHMC, Ruby on rails學習途徑,  常用命令列指令,  陣列,  Ruby基本語法,  變數、常數,  你的第一個 Ruby程式,  開發環境安裝,  流程控制,  簡介,  數字,  線上練習 Ruby,  範圍,  開發工具,  Ruby,  雜湊,  註解,  Rails,  初學Ruby 學習途徑,  字串與插值">
+  <meta NAME = "DESCRIPTION"        CONTENT = "此概念图以 IHMC CmapTools 创建, 内含信息有关于: Ruby on rails學習途徑, 初學Ruby 學習途徑 包括 Ruby基本語法, Ruby基本語法 分為 雜湊, 簡介 關於 開發工具, Ruby基本語法 分為 數字, Ruby基本語法 分為 註解, Ruby基本語法 分為 字串與插值, Ruby基本語法 分為 變數、常數, 簡介 關於 線上練習 Ruby, 簡介 關於 常用命令列指令, 簡介 關於 Ruby, Ruby基本語法 分為 流程控制, 簡介 關於 開發環境安裝, 初學Ruby 學習途徑 包括 簡介, Ruby基本語法 分為 陣列, Ruby基本語法 分為 範圍, Ruby基本語法 分為 你的第一個 Ruby程式, 簡介 關於 Rails">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+此概念图以 IHMC CmapTools 创建, 内含信息有关于: Ruby on rails學習途徑, 初學Ruby 學習途徑 包括 Ruby基本語法, Ruby基本語法 分為 雜湊, 簡介 關於 開發工具, Ruby基本語法 分為 數字, Ruby基本語法 分為 註解, Ruby基本語法 分為 字串與插值, Ruby基本語法 分為 變數、常數, 簡介 關於 線上練習 Ruby, 簡介 關於 常用命令列指令, 簡介 關於 Ruby, Ruby基本語法 分為 流程控制, 簡介 關於 開發環境安裝, 初學Ruby 學習途徑 包括 簡介, Ruby基本語法 分為 陣列, Ruby基本語法 分為 範圍, Ruby基本語法 分為 你的第一個 Ruby程式, 簡介 關於 Rails
+
+</noscript>
+
+<map name="Ruby on rails學習途徑.html">
+  <area shape="rect"
+        href="1RTSZZ7SBICNHBQTI1V1Ix-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTSZZ7SBICNHBQTI1V1Ix-cmapIx-storable'); return false;"
+        coords="42,231,60,249">
+  <area shape="rect"
+        href="1RV2CJW4YI2BBNK2CI2JC5Ix-cmapIx-storable"
+        onClick="popUpEvt(event,'1RV2CJW4YI2BBNK2CI2JC5Ix-cmapIx-storable'); return false;"
+        coords="473,451,491,469">
+  <area shape="rect"
+        href="1RTVYWP5RI23BDS1YIJ0WIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTVYWP5RI23BDS1YIJ0WIx-cmapIx-storable'); return false;"
+        coords="750,231,768,249">
+  <area shape="rect"
+        href="1RTVY2XNZI1MC0YHKIHYZIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTVY2XNZI1MC0YHKIHYZIx-cmapIx-storable'); return false;"
+        coords="397,319,415,337">
+  <area shape="rect"
+        href="1RTSZT84DI24TQM03I1MPIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTSZT84DI24TQM03I1MPIx-cmapIx-storable'); return false;"
+        coords="117,311,135,329">
+  <area shape="rect"
+        href="1RTZ1GK6YI1Z8YBQRIDR6Ix-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTZ1GK6YI1Z8YBQRIDR6Ix-cmapIx-storable'); return false;"
+        coords="687,311,705,329">
+  <area shape="rect"
+        href="1RV2CH7H0I1LXFQ7YI2J4PIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RV2CH7H0I1LXFQ7YI2J4PIx-cmapIx-storable'); return false;"
+        coords="565,451,583,469">
+  <area shape="rect"
+        href="1RTT3RMKPI3J0QKI3PXIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTT3RMKPI3J0QKI3PXIx-cmapIx-storable'); return false;"
+        coords="312,238,330,256">
+  <area shape="rect"
+        href="1RV2CK2WSIVBHRR8I2JCTIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RV2CK2WSIVBHRR8I2JCTIx-cmapIx-storable'); return false;"
+        coords="441,385,459,403">
+  <area shape="rect"
+        href="1RTSZXBTHI1647S6DI1QNIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTSZXBTHI1647S6DI1QNIx-cmapIx-storable'); return false;"
+        coords="286,311,304,329">
+  <area shape="rect"
+        href="1RTSZN52PID9GQF6I1FHIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTSZN52PID9GQF6I1FHIx-cmapIx-storable'); return false;"
+        coords="242,385,260,403">
+  <area shape="rect"
+        href="1RV2CKBGLIF91W03I2JDHIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RV2CKBGLIF91W03I2JDHIx-cmapIx-storable'); return false;"
+        coords="389,231,407,249">
+  <area shape="rect"
+        href="1RTZ205V5I602Y6LIK4CIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTZ205V5I602Y6LIK4CIx-cmapIx-storable'); return false;"
+        coords="519,517,537,535">
+  <area shape="rect"
+        href="1RTSZP1VSI2D7H6W7I1HGIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RTSZP1VSI2D7H6W7I1HGIx-cmapIx-storable'); return false;"
+        coords="173,384,191,402">
+  <area shape="rect"
+        href="1RV2CJDMPI1BD3HSMI2J9LIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1RV2CJDMPI1BD3HSMI2J9LIx-cmapIx-storable'); return false;"
+        coords="629,385,647,403">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#Ruby on rails學習途徑.html"
+             SRC="Ruby on rails學習途徑.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1RTSZZ7SBICNHBQTI1V1Ix-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="常用命令列指令.html "TITLE="">
+      常用命令列指令
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RV2CJW4YI2BBNK2CI2JC5Ix-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="陣列.html "TITLE="">
+      陣列
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RTVYWP5RI23BDS1YIJ0WIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="變數、常數及註解.html "TITLE="">
+      變數、常數及註解
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RTVY2XNZI1MC0YHKIHYZIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="你的第一個 Ruby程式.html "TITLE="">
+      你的第一個 Ruby程式
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RTSZT84DI24TQM03I1MPIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="開發環境安裝.html "TITLE="">
+      開發環境安裝
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RTZ1GK6YI1Z8YBQRIDR6Ix-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="流程控管.html "TITLE="">
+      流程控管
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RV2CH7H0I1LXFQ7YI2J4PIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="數字.html "TITLE="">
+      數字
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RTT3RMKPI3J0QKI3PXIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="練習Ruby.html "TITLE="">
+      練習Ruby
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RV2CK2WSIVBHRR8I2JCTIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="範圍.html "TITLE="">
+      範圍
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RTSZXBTHI1647S6DI1QNIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="開發工具.html "TITLE="">
+      開發工具
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RTSZN52PID9GQF6I1FHIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Ruby.html "TITLE="">
+      Ruby
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RV2CKBGLIF91W03I2JDHIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="雜湊.html "TITLE="">
+      雜湊
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RTZ205V5I602Y6LIK4CIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="註解.html "TITLE="">
+      註解
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RTSZP1VSI2D7H6W7I1HGIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Rails.html "TITLE="">
+      Rails
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1RV2CJDMPI1BD3HSMI2J9LIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="字串與插值.html "TITLE="">
+      字串與插值
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+

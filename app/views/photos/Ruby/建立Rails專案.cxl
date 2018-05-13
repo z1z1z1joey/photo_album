@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>&#x5efa;&#x7acb;Rails&#x5c08;&#x6848;</dc:title>
+        <dc:creator>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2017-10-22T10:05:39+08:00</dcterms:created>
+        <dcterms:modified>2017-10-23T11:55:18+08:00</dcterms:modified>
+        <dc:language>zh</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.02</dc:publisher>
+        <dc:extent>8570 bytes</dc:extent>
+        <dc:source>cmap:1RSTDZRDM-134H5P-1:1RSTDZSST-15FB061-Z:1RTVVQFYK-1C5NVX8-FHN</dc:source>
+    </res-meta>
+    <map width="378" height="187">
+        <concept-list>
+            <concept id="1RTVVV9N4-1ST3W89-G54" label="&#x6253;&#x958b;&#x700f;&#x89bd;&#x5668;&#xa;port:3000" group-order="0"/>
+            <concept id="1RTVVV9N5-1M39QB4-G6Z" label="&#x7522;&#x751f;&#x540d;&#x70ba;&#xa;hello_rails&#x7684;&#x5c08;&#x6848;" short-comment="$ rails new hello_rails" long-comment="" group-order="0"/>
+            <concept id="1RTVVV9N4-2569251-G5S" label="&#x6b65;&#x9a5f;&#x56db;" group-order="0"/>
+            <concept id="1RTVVV9N5-G5TJWQ-G6L" label="&#x9032;&#x5165;&#x5c08;&#x6848;" short-comment="$ cd hello_rails" long-comment="" group-order="0"/>
+            <concept id="1RTVVV9N5-1T3TNQ2-G70" label="&#x6b65;&#x9a5f;&#x4e8c;" group-order="0"/>
+            <concept id="1RTVVV9N4-18W73C7-G5Z" label="&#x555f;&#x52d5;Rails&#x5167;&#x5efa;&#xa;web server" short-comment="$ bin/rails server" long-comment="" group-order="0"/>
+            <concept id="1RTVVV9N3-7FG7NJ-G4W" label="&#x6253;&#x958b;&#x700f;&#x89bd;&#x5668;&#xa;port:3000" group-order="0"/>
+            <concept id="1RTVVV9N5-1LHWV5X-G6G" label="&#x555f;&#x52d5;Rails&#x5167;&#x5efa;&#xa;web server" short-comment="$ bin/rails server" long-comment="" group-order="0"/>
+            <concept id="1RTVVV9N5-YSZB1Q-G6S" label="&#x6b65;&#x9a5f;&#x4e00;" group-order="0"/>
+            <concept id="1RTVVV9N5-1NLP32-G76" label="&#x9032;&#x5165;&#x5c08;&#x6848;" short-comment="$ cd hello_rails" long-comment="" group-order="0"/>
+            <concept id="1RTVVV9N5-1T04XK9-G66" label="&#x6b65;&#x9a5f;"/>
+            <concept id="1RTVVV9N5-1H340M2-G6D" label="&#x6b65;&#x9a5f;&#x4e8c;" group-order="0"/>
+            <concept id="1RTVVV9N5-NHRBHP-G6N" label="&#x6b65;&#x9a5f;&#x4e09;" group-order="0"/>
+            <concept id="1RTVVV9N4-1YJJ5DF-G62" label="&#x6b65;&#x9a5f;&#x4e09;" group-order="0"/>
+            <concept id="1RTVVV9N5-HM467Y-G7G" label="&#x6b65;&#x9a5f;&#x4e00;" group-order="0"/>
+            <concept id="1RTVVV9N5-1M5FSFX-G67" label="&#x6b65;&#x9a5f;&#x56db;" group-order="0"/>
+            <concept id="1RTVVV9N5-HN2SY4-G7N" label="&#x7522;&#x751f;&#x540d;&#x70ba;&#xa;hello_rails&#x7684;&#x5c08;&#x6848;" short-comment="$ rails new hello_rails" long-comment="" group-order="0"/>
+            <concept id="1RTVVV9N5-RW3Q2F-G6V" label="&#x6b65;&#x9a5f;"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RTVVV9N6-1Z9MLJM-GDZ" label="&#x662f;" group-order="0"/>
+            <linking-phrase id="1RTVVV9N5-2B1D7LP-G8C" label="&#x662f;" group-order="0"/>
+            <linking-phrase id="1RTVVV9N6-1XWRGY8-GD3" label="&#x662f;" group-order="0"/>
+            <linking-phrase id="1RTVVV9N5-FTGJFY-G97" label="&#x662f;" group-order="0"/>
+            <linking-phrase id="1RTVVV9N6-201CP72-GD8" label="&#x662f;" group-order="0"/>
+            <linking-phrase id="1RTVVV9N6-1QTLF8Q-GC9" label="&#x662f;" group-order="0"/>
+            <linking-phrase id="1RTVVV9N5-1HB5TC8-G7H" label="&#x662f;" group-order="0"/>
+            <linking-phrase id="1RTVVV9N5-236VCRS-G88" label="&#x662f;" group-order="0"/>
+            <linking-phrase id="1RTVVV9N5-242NV0R-G9B" label="&#x7684;"/>
+            <linking-phrase id="1RTVVV9N5-277K2XD-GB5" label="&#x7684;"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RTVVV9N5-68MSB4-G80" from-id="1RTVVV9N5-2B1D7LP-G8C" to-id="1RTVVV9N4-18W73C7-G5Z"/>
+            <connection id="1RTVVV9N5-4HRN3H-GBY" from-id="1RTVVV9N6-1QTLF8Q-GC9" to-id="1RTVVV9N5-G5TJWQ-G6L"/>
+            <connection id="1RTVVV9N5-14LBKBC-GB7" from-id="1RTVVV9N5-242NV0R-G9B" to-id="1RTVVV9N4-2569251-G5S"/>
+            <connection id="1RTVVV9N6-QHDK5H-GCQ" from-id="1RTVVV9N6-1XWRGY8-GD3" to-id="1RTVVV9N5-1NLP32-G76"/>
+            <connection id="1RTVVV9N6-2141YYM-GDH" from-id="1RTVVV9N5-YSZB1Q-G6S" to-id="1RTVVV9N6-201CP72-GD8"/>
+            <connection id="1RTVVV9N5-1NYN3WC-G7W" from-id="1RTVVV9N5-236VCRS-G88" to-id="1RTVVV9N4-1ST3W89-G54"/>
+            <connection id="1RTVVV9N5-225PL05-G9L" from-id="1RTVVV9N5-242NV0R-G9B" to-id="1RTVVV9N5-1H340M2-G6D"/>
+            <connection id="1RTVVV9N6-24XD21Z-GC1" from-id="1RTVVV9N5-277K2XD-GB5" to-id="1RTVVV9N5-1M5FSFX-G67"/>
+            <connection id="1RTVVV9N5-D51G3S-GBD" from-id="1RTVVV9N5-277K2XD-GB5" to-id="1RTVVV9N5-1T3TNQ2-G70"/>
+            <connection id="1RTVVV9N6-JLFF7R-GCC" from-id="1RTVVV9N5-RW3Q2F-G6V" to-id="1RTVVV9N5-277K2XD-GB5"/>
+            <connection id="1RTVVV9N5-BLF7RN-GBQ" from-id="1RTVVV9N5-277K2XD-GB5" to-id="1RTVVV9N5-NHRBHP-G6N"/>
+            <connection id="1RTVVV9N5-JXM42Y-GBK" from-id="1RTVVV9N5-1T04XK9-G66" to-id="1RTVVV9N5-242NV0R-G9B"/>
+            <connection id="1RTVVV9N5-1661QP3-G9T" from-id="1RTVVV9N5-277K2XD-GB5" to-id="1RTVVV9N5-HM467Y-G7G"/>
+            <connection id="1RTVVV9N5-28YZPH6-G8Z" from-id="1RTVVV9N5-242NV0R-G9B" to-id="1RTVVV9N5-YSZB1Q-G6S"/>
+            <connection id="1RTVVV9N6-14NKSSJ-GF2" from-id="1RTVVV9N5-HM467Y-G7G" to-id="1RTVVV9N6-1Z9MLJM-GDZ"/>
+            <connection id="1RTVVV9N5-25NDGXG-G9F" from-id="1RTVVV9N5-NHRBHP-G6N" to-id="1RTVVV9N5-FTGJFY-G97"/>
+            <connection id="1RTVVV9N6-15VHXD9-GCJ" from-id="1RTVVV9N5-1H340M2-G6D" to-id="1RTVVV9N6-1QTLF8Q-GC9"/>
+            <connection id="1RTVVV9N5-1672MNM-G75" from-id="1RTVVV9N5-1HB5TC8-G7H" to-id="1RTVVV9N3-7FG7NJ-G4W"/>
+            <connection id="1RTVVV9N5-142JST-G9X" from-id="1RTVVV9N5-242NV0R-G9B" to-id="1RTVVV9N4-1YJJ5DF-G62"/>
+            <connection id="1RTVVV9N5-1W493FF-G8V" from-id="1RTVVV9N5-FTGJFY-G97" to-id="1RTVVV9N5-1LHWV5X-G6G"/>
+            <connection id="1RTVVV9N5-1ZCPHJ-G8G" from-id="1RTVVV9N5-1M5FSFX-G67" to-id="1RTVVV9N5-236VCRS-G88"/>
+            <connection id="1RTVVV9N6-1DRM6WL-GDB" from-id="1RTVVV9N5-1T3TNQ2-G70" to-id="1RTVVV9N6-1XWRGY8-GD3"/>
+            <connection id="1RTVVV9N6-7L0QDZ-GCX" from-id="1RTVVV9N6-201CP72-GD8" to-id="1RTVVV9N5-1M39QB4-G6Z"/>
+            <connection id="1RTVVV9N5-1DD5D5-G8L" from-id="1RTVVV9N4-1YJJ5DF-G62" to-id="1RTVVV9N5-2B1D7LP-G8C"/>
+            <connection id="1RTVVV9N6-ZTVB9R-GDP" from-id="1RTVVV9N6-1Z9MLJM-GDZ" to-id="1RTVVV9N5-HN2SY4-G7N"/>
+            <connection id="1RTVVV9N5-1MPDFPD-G7P" from-id="1RTVVV9N4-2569251-G5S" to-id="1RTVVV9N5-1HB5TC8-G7H"/>
+        </connection-list>
+        <resource-group-list>
+            <resource-group parent-id="1RTVVV9N4-1ST3W89-G54" group-type="image">
+                <resource id="1RTVVV9N4-3XNJCH-G5G" label="&#x87a2;&#x5e55;&#x5feb;&#x7167; 2017-10-21 &#x4e0b;&#x5348;9.41.21" description="" resource-name="&#x87a2;&#x5e55;&#x5feb;&#x7167; 2017-10-21 &#x4e0b;&#x5348;9.41.21"
+                    resource-mimetype="image/x-png" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z" resource-id="1RTT9PVN9-N5TLGW-8ZD" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/&#x87a2;&#x5e55;&#x5feb;&#x7167; 2017-10-21 &#x4e0b;&#x5348;9.41.21.png"/>
+            </resource-group>
+            <resource-group parent-id="1RTVVV9N4-1ST3W89-G54" group-type="text-and-image">
+                <resource id="1RTVVV9N4-B7NGFR-G5V" label="localhost3000" description="" resource-name="localhost3000" resource-mimetype="text/x-url" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RTT9N0BY-7K8WM-8W6" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/localhost3000.url"/>
+            </resource-group>
+            <resource-group parent-id="1RTVVV9N3-7FG7NJ-G4W" group-type="text-and-image">
+                <resource id="1RTVVV9N4-M8P7QP-G5J" label="localhost3000" description="" resource-name="localhost3000" resource-mimetype="text/x-url" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RTT9N0BY-7K8WM-8W6" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/localhost3000.url"/>
+            </resource-group>
+            <resource-group parent-id="1RTVVV9N3-7FG7NJ-G4W" group-type="image">
+                <resource id="1RTVVV9N4-145WJKX-G52" label="&#x87a2;&#x5e55;&#x5feb;&#x7167; 2017-10-21 &#x4e0b;&#x5348;9.41.21" description="" resource-name="&#x87a2;&#x5e55;&#x5feb;&#x7167; 2017-10-21 &#x4e0b;&#x5348;9.41.21"
+                    resource-mimetype="image/x-png" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z" resource-id="1RTT9PVN9-N5TLGW-8ZD" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/&#x87a2;&#x5e55;&#x5feb;&#x7167; 2017-10-21 &#x4e0b;&#x5348;9.41.21.png"/>
+            </resource-group>
+        </resource-group-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RTVVV9N4-1ST3W89-G54" x="86" y="301" width="77" height="57" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <concept-appearance id="1RTVVV9N5-1M39QB4-G6Z" x="367" y="301" width="113" height="42" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <concept-appearance id="1RTVVV9N4-2569251-G5S" x="144" y="223" width="52" height="27" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <concept-appearance id="1RTVVV9N5-G5TJWQ-G6L" x="269" y="301" width="64" height="27" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <concept-appearance id="1RTVVV9N5-1T3TNQ2-G70" x="268" y="223" width="52" height="27" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <concept-appearance id="1RTVVV9N4-18W73C7-G5Z" x="181" y="301" width="92" height="41" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <concept-appearance id="1RTVVV9N3-7FG7NJ-G4W" x="86" y="301" width="77" height="57" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <concept-appearance id="1RTVVV9N5-1LHWV5X-G6G" x="181" y="301" width="92" height="41" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <concept-appearance id="1RTVVV9N5-YSZB1Q-G6S" x="330" y="223" width="52" height="27" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <concept-appearance id="1RTVVV9N5-1NLP32-G76" x="269" y="301" width="64" height="27" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <concept-appearance id="1RTVVV9N5-1T04XK9-G66" x="229" y="165" width="40" height="27" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <concept-appearance id="1RTVVV9N5-1H340M2-G6D" x="268" y="223" width="52" height="27" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <concept-appearance id="1RTVVV9N5-NHRBHP-G6N" x="206" y="223" width="52" height="27" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <concept-appearance id="1RTVVV9N4-1YJJ5DF-G62" x="206" y="223" width="52" height="27" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <concept-appearance id="1RTVVV9N5-HM467Y-G7G" x="330" y="223" width="52" height="27" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <concept-appearance id="1RTVVV9N5-1M5FSFX-G67" x="144" y="223" width="52" height="27" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <concept-appearance id="1RTVVV9N5-HN2SY4-G7N" x="367" y="301" width="113" height="42" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <concept-appearance id="1RTVVV9N5-RW3Q2F-G6V" x="229" y="165" width="40" height="27" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RTVVV9N6-1Z9MLJM-GDZ" x="330" y="261" width="14" height="13" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <linking-phrase-appearance id="1RTVVV9N5-2B1D7LP-G8C" x="206" y="261" width="14" height="13" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <linking-phrase-appearance id="1RTVVV9N6-1XWRGY8-GD3" x="268" y="261" width="14" height="13" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <linking-phrase-appearance id="1RTVVV9N5-FTGJFY-G97" x="206" y="261" width="14" height="13" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <linking-phrase-appearance id="1RTVVV9N6-201CP72-GD8" x="330" y="261" width="14" height="13" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <linking-phrase-appearance id="1RTVVV9N6-1QTLF8Q-GC9" x="268" y="261" width="14" height="13" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <linking-phrase-appearance id="1RTVVV9N5-1HB5TC8-G7H" x="144" y="261" width="14" height="13" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <linking-phrase-appearance id="1RTVVV9N5-236VCRS-G88" x="144" y="261" width="14" height="13" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <linking-phrase-appearance id="1RTVVV9N5-242NV0R-G9B" x="279" y="194" width="14" height="13" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <linking-phrase-appearance id="1RTVVV9N5-277K2XD-GB5" x="279" y="194" width="14" height="13" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RTVVV9N5-68MSB4-G80" from-pos="center" to-pos="top" type="straight" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N5-4HRN3H-GBY" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N5-14LBKBC-GB7" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N6-QHDK5H-GCQ" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N6-2141YYM-GDH" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N5-1NYN3WC-G7W" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N5-225PL05-G9L" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N6-24XD21Z-GC1" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N5-D51G3S-GBD" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N6-JLFF7R-GCC" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N5-BLF7RN-GBQ" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N5-JXM42Y-GBK" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N5-1661QP3-G9T" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N5-28YZPH6-G8Z" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N6-14NKSSJ-GF2" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N5-25NDGXG-G9F" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N6-15VHXD9-GCJ" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N5-1672MNM-G75" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N5-142JST-G9X" from-pos="center" to-pos="center" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N5-1W493FF-G8V" from-pos="center" to-pos="top" type="straight" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N5-1ZCPHJ-G8G" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N6-1DRM6WL-GDB" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N6-7L0QDZ-GCX" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N5-1DD5D5-G8L" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+            <connection-appearance id="1RTVVV9N6-ZTVB9R-GDP" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N4-FV6TD2-G57"/>
+            <connection-appearance id="1RTVVV9N5-1MPDFPD-G7P" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RTVVV9N3-7P5VFL-G4Z"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVVV9N4-FV6TD2-G57">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RTVVV9N3-7P5VFL-G4Z">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-properties-list>
+            <properties-list id="1RTVVV9N4-M8P7QP-G5J">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/localhost3000.url"/>
+            </properties-list>
+            <properties-list id="1RTVVV9N4-3XNJCH-G5G">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/&#x87a2;&#x5e55;&#x5feb;&#x7167; 2017-10-21 &#x4e0b;&#x5348;9.41.21.png"/>
+            </properties-list>
+            <properties-list id="1RTVVV9N4-B7NGFR-G5V">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/localhost3000.url"/>
+            </properties-list>
+            <properties-list id="1RTVVV9N4-145WJKX-G52">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/&#x87a2;&#x5e55;&#x5feb;&#x7167; 2017-10-21 &#x4e0b;&#x5348;9.41.21.png"/>
+            </properties-list>
+        </extra-properties-list>
+    </map>
+</cmap>

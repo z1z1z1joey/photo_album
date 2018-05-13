@@ -1,0 +1,7 @@
+# 判斷是男性 (male) 還是女性 (female)？
+gender = "female"    # 設定性別是女性 
+if gender == "male"  # 如果性別是男性 
+  puts "male"        # 印出 male
+else
+  puts "female"      # 印出 female
+end

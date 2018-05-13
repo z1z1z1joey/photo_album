@@ -1,0 +1,15 @@
+例如：
+print "Enter season: "
+season = gets.chomp
+case season                          # 在 season 的結構中
+when "Spring"                        # 當 season 是 Spring 的時候
+    puts "It's spring."             # 印出 It's spring.
+when "Summer"                        
+   puts "It's summer."
+when "Autumn
+   puts "It's autumn."
+when "Winter"
+   puts "It's winter.
+else                               # 其他的名字 
+  puts "No  #{season} this season"               # No  #{輸入的字串} this season  
+end

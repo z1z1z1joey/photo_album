@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>&#x7df4;&#x7fd2;Ruby</dc:title>
+        <dc:creator>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2017-10-24T13:38:02+08:00</dcterms:created>
+        <dcterms:modified>2017-10-24T13:38:02+08:00</dcterms:modified>
+        <dc:language>zh</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.02</dc:publisher>
+        <dc:extent>5150 bytes</dc:extent>
+        <dc:source>cmap:1RSTDZRDM-134H5P-1:1RSTDZSST-15FB061-Z:1RV2BRTKL-19N733T-2B5K</dc:source>
+    </res-meta>
+    <map width="253" height="172">
+        <concept-list>
+            <concept id="1RV2BRVW3-JT09F0-2B5Q" label="Try Ruby"/>
+            <concept id="1RV2BRVW4-SG30BS-2B6F" label="&#x7dda;&#x4e0a;&#x7df4;&#x7fd2;&#xa;Ruby"/>
+            <concept id="1RV2BRVW4-1GFRLS5-2B63" label="c9.io"/>
+            <concept id="1RV2BRVW4-14K0ZXK-2B6J" label="codeanywhere"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RV2BRVW5-1GHNH0C-2B72" label="&#x5305;&#x62ec;"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RV2BRVW5-27PL5DK-2B76" from-id="1RV2BRVW5-1GHNH0C-2B72" to-id="1RV2BRVW3-JT09F0-2B5Q"/>
+            <connection id="1RV2BRVW5-1C1BWHW-2B6V" from-id="1RV2BRVW5-1GHNH0C-2B72" to-id="1RV2BRVW4-14K0ZXK-2B6J"/>
+            <connection id="1RV2BRVW5-1ZBK9YS-2B7K" from-id="1RV2BRVW4-SG30BS-2B6F" to-id="1RV2BRVW5-1GHNH0C-2B72"/>
+            <connection id="1RV2BRVW5-5Z6GR4-2B7D" from-id="1RV2BRVW5-1GHNH0C-2B72" to-id="1RV2BRVW4-1GFRLS5-2B63"/>
+        </connection-list>
+        <resource-group-list>
+            <resource-group parent-id="1RV2BRVW3-JT09F0-2B5Q" group-type="text-and-image">
+                <resource id="1RV2BRVW4-TF90HK-2B5X" label="Try Ruby" description="" resource-name="Try Ruby" resource-mimetype="text/x-url" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RTT79DML-1KLYYWV-7D8" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/Try Ruby.url"/>
+            </resource-group>
+            <resource-group parent-id="1RV2BRVW4-1GFRLS5-2B63" group-type="text-and-image">
+                <resource id="1RV2BRVW4-1LPPK82-2B68" label="c9.io" description="" resource-name="c9.io" resource-mimetype="text/x-url" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z" resource-id="1RTT7D720-16D27FW-7H9" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/c9.io.url"/>
+            </resource-group>
+            <resource-group parent-id="1RV2BRVW4-14K0ZXK-2B6J" group-type="text-and-image">
+                <resource id="1RV2BRVW4-22HLTRB-2B6P" label="codeanywhere" description="" resource-name="codeanywhere" resource-mimetype="text/x-url" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RTT7C4K9-M267H0-7FS" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/codeanywhere.url"/>
+            </resource-group>
+        </resource-group-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RV2BRVW3-JT09F0-2B5Q" x="143" y="301" width="65" height="41" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BRVW4-2230C3Y-2B5T"/>
+            <concept-appearance id="1RV2BRVW4-SG30BS-2B6F" x="226" y="179" width="64" height="40" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BRVW4-2230C3Y-2B5T"/>
+            <concept-appearance id="1RV2BRVW4-1GFRLS5-2B63" x="221" y="301" width="41" height="39" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BRVW4-2230C3Y-2B5T"/>
+            <concept-appearance id="1RV2BRVW4-14K0ZXK-2B6J" x="314" y="301" width="94" height="41" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BRVW4-2230C3Y-2B5T"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RV2BRVW5-1GHNH0C-2B72" x="226" y="243" width="26" height="13" font-name="Helvetica" font-style="plain" stylesheet-id="1RV2BRVW4-2230C3Y-2B5T"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RV2BRVW5-27PL5DK-2B76" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BRVW5-XKG198-2B79"/>
+            <connection-appearance id="1RV2BRVW5-1C1BWHW-2B6V" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BRVW5-YK7PT7-2B6Y"/>
+            <connection-appearance id="1RV2BRVW5-1ZBK9YS-2B7K" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BRVW4-2230C3Y-2B5T"/>
+            <connection-appearance id="1RV2BRVW5-5Z6GR4-2B7D" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BRVW4-2230C3Y-2B5T"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RV2BRVW4-2230C3Y-2B5T">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RV2BRVW5-XKG198-2B79">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RV2BRVW5-YK7PT7-2B6Y">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-properties-list>
+            <properties-list id="1RV2BRVW4-22HLTRB-2B6P">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/codeanywhere.url"/>
+            </properties-list>
+            <properties-list id="1RV2BRVW4-1LPPK82-2B68">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/c9.io.url"/>
+            </properties-list>
+            <properties-list id="1RV2BRVW4-TF90HK-2B5X">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/Try Ruby.url"/>
+            </properties-list>
+        </extra-properties-list>
+    </map>
+</cmap>

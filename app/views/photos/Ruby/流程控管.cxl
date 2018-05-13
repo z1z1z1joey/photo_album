@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>&#x6d41;&#x7a0b;&#x63a7;&#x7ba1;</dc:title>
+        <dc:creator>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2017-10-22T13:14:54+08:00</dcterms:created>
+        <dcterms:modified>2017-10-24T14:00:59+08:00</dcterms:modified>
+        <dc:language>zh</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.02</dc:publisher>
+        <dc:extent>6123 bytes</dc:extent>
+        <dc:source>cmap:1RSTDZRDM-134H5P-1:1RSTDZSST-15FB061-Z:1RTW6FJGR-18J2CDC-LF2</dc:source>
+    </res-meta>
+    <map width="335" height="267">
+        <concept-list>
+            <concept id="1RTW6ZYCR-YT364D-LKF" label="if...elif...else...end"
+                short-comment="# &#x7528; BMI &#x4f86;&#x5224;&#x65b7;&#x8eab;&#x9ad4;&#x72c0;&#x6cc1;&#xff1f;&#xa;&#xa;bmi = 26                       # &#x8a2d;&#x5b9a; bmi &#x70ba; 26 &#xa;&#xa;if bmi > 0 &amp;&amp; bmi &lt; 18         # &#x5982;&#x679c; bmi > 0 &#x8207; &lt; 18 &#x4e4b;&#x9593;&#xa;  puts &quot;&#x9ad4;&#x91cd;&#x904e;&#x8f15;&quot;               # &#x5370;&#x51fa;&#x9ad4;&#x91cd;&#x904e;&#x8f15;&#xa;&#xa;elsif bmi >= 18 &amp;&amp; bmi &lt; 24    # &#x5982;&#x679c; bmi >= 18 &#x8207; &lt; 24 &#x4e4b;&#x9593;&#xa;  puts &quot;&#x6b63;&#x5e38;&#x9ad4;&#x91cd;&quot;               # &#x5370;&#x51fa;&#x6b63;&#x5e38;&#x9ad4;&#x91cd;&#xa;&#xa;elsif bmi >= 24 &amp;&amp; bmi &lt; 27    # &#x5982;&#x679c; bmi >= 24 &#x8207; &lt; 27 &#x4e4b;&#x9593;&#xa;  puts &quot;&#x9ad4;&#x91cd;&#x904e;&#x91cd;&#xff0c;&#x6ce8;&#x610f;&#x5594;&#xff01;&quot;  # &#x5370;&#x51fa;&#x9ad4;&#x91cd;&#x904e;&#x91cd;&#xff0c;&#x6ce8;&#x610f;&#x5594;&#xff01;&#xa;&#xa;else&#xa;  puts &quot;&#x80a5;&#x80d6;&#xff01;&#x8acb;&#x6e1b;&#x80a5;&quot; # &#x5370;&#x51fa;&#x80a5;&#x80d6;&#xff01;&#x8acb;&#x6e1b;&#x80a5;&#xa;end" long-comment=""/>
+            <concept id="1RTW795GV-188Q3B3-LPN" label="Case&#x63a7;&#x5236;&#x7d50;&#x69cb;"
+                short-comment="&#x4f8b;&#x5982;&#xff1a;&#xa;print &quot;Enter season: &quot;&#xa;season = gets.chomp&#xa;case season                          # &#x5728; season &#x7684;&#x7d50;&#x69cb;&#x4e2d;&#xa;when &quot;Spring&quot;                        # &#x7576; season &#x662f; Spring &#x7684;&#x6642;&#x5019;&#xa;    puts &quot;It's spring.&quot;             # &#x5370;&#x51fa; It's spring.&#xa;when &quot;Summer&quot;                        &#xa;   puts &quot;It's summer.&quot;&#xa;when &quot;Autumn&#xa;   puts &quot;It's autumn.&quot;&#xa;when &quot;Winter&quot;&#xa;   puts &quot;It's winter.&#xa;else                               # &#x5176;&#x4ed6;&#x7684;&#x540d;&#x5b57; &#xa;  puts &quot;No  #{season} this season&quot;               # No  #{&#x8f38;&#x5165;&#x7684;&#x5b57;&#x4e32;} this season  &#xa;end" long-comment=""/>
+            <concept id="1RTW6H825-17Q9W6K-LGM" label="if...end" short-comment="#&#x5224;&#x65b7;2>1&#x55ce;?&#xa;if 2>1                #&#x5982;&#x679c;2>1&#xa;  puts true          #&#x5370;&#x51fa;true&#xa;end" long-comment=""/>
+            <concept id="1RTW70Z3L-18S5RG3-LKL" label="if&#x689d;&#x4ef6;&#x5224;&#x65b7;&#x5f0f;"/>
+            <concept id="1RTW6GT0H-SXJ98D-LF8" label="&#x6d41;&#x7a0b;&#x63a7;&#x5236;"/>
+            <concept id="1RTW6P657-1JJF2JV-LJ6" label="if...else...end"
+                short-comment="# &#x5224;&#x65b7;&#x662f;&#x7537;&#x6027; (male) &#x9084;&#x662f;&#x5973;&#x6027; (female)&#xff1f;&#xa;gender = &quot;female&quot;    # &#x8a2d;&#x5b9a;&#x6027;&#x5225;&#x662f;&#x5973;&#x6027; &#xa;if gender == &quot;male&quot;  # &#x5982;&#x679c;&#x6027;&#x5225;&#x662f;&#x7537;&#x6027; &#xa;  puts &quot;male&quot;        # &#x5370;&#x51fa; male&#xa;else&#xa;  puts &quot;female&quot;      # &#x5370;&#x51fa; female&#xa;end" long-comment=""/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RTW718B0-155CPN0-LKZ" label="&#x7a2e;&#x985e;"/>
+            <linking-phrase id="1RTW7V8N2-2CH67P2-LSY" label="&#x6709;"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RTW71XNV-QTPGCP-LN5" from-id="1RTW718B0-155CPN0-LKZ" to-id="1RTW6ZYCR-YT364D-LKF"/>
+            <connection id="1RTW718B0-28VTQM0-LL3" from-id="1RTW70Z3L-18S5RG3-LKL" to-id="1RTW718B0-155CPN0-LKZ"/>
+            <connection id="1RTW7V8N4-1QL3PSJ-LT7" from-id="1RTW7V8N2-2CH67P2-LSY" to-id="1RTW70Z3L-18S5RG3-LKL"/>
+            <connection id="1RTW718B1-1M4FKDV-LL9" from-id="1RTW718B0-155CPN0-LKZ" to-id="1RTW6H825-17Q9W6K-LGM"/>
+            <connection id="1RTW7V8N3-212WHCM-LT1" from-id="1RTW6GT0H-SXJ98D-LF8" to-id="1RTW7V8N2-2CH67P2-LSY"/>
+            <connection id="1RTW7VK9Y-1RWXJ5-LTX" from-id="1RTW7V8N2-2CH67P2-LSY" to-id="1RTW795GV-188Q3B3-LPN"/>
+            <connection id="1RTW71VDN-T7GC1R-LMS" from-id="1RTW718B0-155CPN0-LKZ" to-id="1RTW6P657-1JJF2JV-LJ6"/>
+        </connection-list>
+        <resource-group-list>
+            <resource-group parent-id="1RTW6ZYCR-YT364D-LKF" group-type="unknown">
+                <resource id="1RV2BGTPT-9DGFXP-28F4" label="&#xff22;&#xff2d;&#xff29;" description="" resource-name="&#xff22;&#xff2d;&#xff29;" resource-mimetype="x-unknown/x-unknown" resource-server-id="1RSTDZRDM-134H5P-1"
+                    resource-folder-id="1RSTDZSST-15FB061-Z" resource-id="1RV242GYC-BQ2172-PFW" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/&#xff22;&#xff2d;&#xff29;"/>
+            </resource-group>
+            <resource-group parent-id="1RTW795GV-188Q3B3-LPN" group-type="unknown">
+                <resource id="1RV2BK8LJ-276XF9C-28GX" label="case" description="" resource-name="case" resource-mimetype="x-unknown/x-unknown" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RV2BK7J9-12R5N7K-28FJ" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/case"/>
+            </resource-group>
+            <resource-group parent-id="1RTW6H825-17Q9W6K-LGM" group-type="unknown">
+                <resource id="1RV2BG24G-88PB6T-28D7" label="&#x5927;&#x65bc;" description="" resource-name="&#x5927;&#x65bc;" resource-mimetype="x-unknown/x-unknown" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RV24B4L7-5914S5-PK8" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/&#x5927;&#x65bc;"/>
+            </resource-group>
+            <resource-group parent-id="1RTW6P657-1JJF2JV-LJ6" group-type="unknown">
+                <resource id="1RV2BGCPW-28K5LKF-28DT" label="male" description="" resource-name="male" resource-mimetype="x-unknown/x-unknown" resource-server-id="1RSTDZRDM-134H5P-1" resource-folder-id="1RSTDZSST-15FB061-Z"
+                    resource-id="1RV246BLV-24W34KZ-PHM" resource-url="file:////Users/z1z1z1joey/Documents/My Cmaps/male"/>
+            </resource-group>
+        </resource-group-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RTW6ZYCR-YT364D-LKF" x="87" y="262" width="127" height="39"/>
+            <concept-appearance id="1RTW795GV-188Q3B3-LPN" x="86" y="147" width="93" height="41"/>
+            <concept-appearance id="1RTW6H825-17Q9W6K-LGM" x="205" y="262" width="59" height="39"/>
+            <concept-appearance id="1RTW70Z3L-18S5RG3-LKL" x="200" y="147" width="84" height="27"/>
+            <concept-appearance id="1RTW6GT0H-SXJ98D-LF8" x="143" y="38" width="64" height="27"/>
+            <concept-appearance id="1RTW6P657-1JJF2JV-LJ6" x="308" y="262" width="96" height="39"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RTW718B0-155CPN0-LKZ" x="200" y="205" width="26" height="13"/>
+            <linking-phrase-appearance id="1RTW7V8N2-2CH67P2-LSY" x="143" y="89" width="14" height="13"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RTW71XNV-QTPGCP-LN5" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW718B0-28VTQM0-LL3" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW7V8N4-1QL3PSJ-LT7" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW718B1-1M4FKDV-LL9" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW7V8N3-212WHCM-LT1" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW7VK9Y-1RWXJ5-LTX" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW71VDN-T7GC1R-LMS" from-pos="center" to-pos="center" type="straight"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-properties-list>
+            <properties-list id="1RV2BK8LJ-276XF9C-28GX">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/case"/>
+            </properties-list>
+            <properties-list id="1RV2BGCPW-28K5LKF-28DT">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/male"/>
+            </properties-list>
+            <properties-list id="1RV2BGTPT-9DGFXP-28F4">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/&#xff22;&#xff2d;&#xff29;"/>
+            </properties-list>
+            <properties-list id="1RV2BG24G-88PB6T-28D7">
+                <property key="_urlString" value="file:////Users/z1z1z1joey/Documents/My Cmaps/&#x5927;&#x65bc;"/>
+            </properties-list>
+        </extra-properties-list>
+    </map>
+</cmap>

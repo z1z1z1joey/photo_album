@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Ruby</dc:title>
+        <dc:creator>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2017-10-24T13:35:45+08:00</dcterms:created>
+        <dcterms:modified>2017-10-24T13:35:45+08:00</dcterms:modified>
+        <dc:language>zh</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.02</dc:publisher>
+        <dc:extent>6040 bytes</dc:extent>
+        <dc:source>cmap:1RSTDZRDM-134H5P-1:1RSTDZSST-15FB061-Z:1RV2BMNN8-136928R-28RP</dc:source>
+    </res-meta>
+    <map width="352" height="382">
+        <concept-list>
+            <concept id="1RV2BMQ0Y-YPL66Q-28SD" label="&#x767c;&#x660e;&#x4eba;"/>
+            <concept id="1RV2BMQ0Y-27W1Y0V-28SP" label="1995&#x5e74;&#xa;&#x91cb;&#x51fa;&#x7b2c;&#x4e00;&#x7248;"/>
+            <concept id="1RV2BMQ0Y-HTRSF1-28S9" label="&#x6613;&#x8b80;" group-order="0"/>
+            <concept id="1RV2BMQ0Y-21HK8V1-28RV" label="&#x8a9e;&#x6cd5;&#x81ea;&#x7136;" group-order="0"/>
+            <concept id="1RV2BMQ0Y-1KZ0LC4-28SL" label="&#x7269;&#x4ef6;&#x5c0e;&#x5411;&#xa;&#x7a0b;&#x5f0f;&#x8a9e;&#x8a00;"/>
+            <concept id="1RV2BMQ0Y-4YMNWV-28S0" label="&#x6613;&#x5b78;" group-order="0"/>
+            <concept id="1RV2BMQ0Y-9T6Y6Y-28S3" label="&#x677e;&#x672c;&#x884c;&#x5f18;"/>
+            <concept id="1RV2BMQ0Y-NZD9ZZ-28SS" label="Ruby"/>
+            <concept id="1RV2BMQ0Y-295S7BZ-28S6" label="&#x6613;&#x7dad;&#x8b77;" group-order="0"/>
+            <concept id="1RV2BMQ0Y-23PD2V6-28SH" label="&#x7279;&#x8272;"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RV2BMQ0Z-CF7GYX-28X7" label="&#x7684;"/>
+            <linking-phrase id="1RV2BMQ0Z-KNQLXX-28T2" label="&#x56e0;&#x70ba;" group-order="0"/>
+            <linking-phrase id="1RV2BMQ0Z-1QBLL3X-28WS" label="&#x662f;"/>
+            <linking-phrase id="1RV2BMQ0Z-1YQM1VQ-28TY" label="&#x662f;"/>
+            <linking-phrase id="1RV2BMQ0Z-2B6K31H-28W9" label="&#x65bc;"/>
+            <linking-phrase id="1RV2BMQ0Z-28386ZD-28VG" label="&#x662f;" group-order="0"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RV2BMQ0Z-YZ9SL6-28VK" from-id="1RV2BMQ0Z-28386ZD-28VG" to-id="1RV2BMQ0Y-4YMNWV-28S0"/>
+            <connection id="1RV2BMQ0Z-VYXXGC-28T6" from-id="1RV2BMQ0Y-4YMNWV-28S0" to-id="1RV2BMQ0Z-KNQLXX-28T2"/>
+            <connection id="1RV2BMQ0Z-10ZY8TN-28W3" from-id="1RV2BMQ0Z-2B6K31H-28W9" to-id="1RV2BMQ0Y-27W1Y0V-28SP"/>
+            <connection id="1RV2BMQ0Z-143FVKQ-28WW" from-id="1RV2BMQ0Y-NZD9ZZ-28SS" to-id="1RV2BMQ0Z-1QBLL3X-28WS"/>
+            <connection id="1RV2BMQ0Z-12JZXXS-28TR" from-id="1RV2BMQ0Z-1YQM1VQ-28TY" to-id="1RV2BMQ0Y-9T6Y6Y-28S3"/>
+            <connection id="1RV2BMQ0Z-1NT3QVF-28TF" from-id="1RV2BMQ0Y-295S7BZ-28S6" to-id="1RV2BMQ0Z-KNQLXX-28T2"/>
+            <connection id="1RV2BMQ0Z-1063RD8-28WL" from-id="1RV2BMQ0Z-1QBLL3X-28WS" to-id="1RV2BMQ0Y-1KZ0LC4-28SL"/>
+            <connection id="1RV2BMQ0Z-1PRYC98-28V7" from-id="1RV2BMQ0Z-28386ZD-28VG" to-id="1RV2BMQ0Y-HTRSF1-28S9"/>
+            <connection id="1RV2BMQ0Z-1J3RJXD-28X1" from-id="1RV2BMQ0Z-CF7GYX-28X7" to-id="1RV2BMQ0Y-YPL66Q-28SD"/>
+            <connection id="1RV2BMQ10-1JTTHNP-28XJ" from-id="1RV2BMQ0Y-NZD9ZZ-28SS" to-id="1RV2BMQ0Z-CF7GYX-28X7"/>
+            <connection id="1RV2BMQ0Y-1JVQS4C-28SW" from-id="1RV2BMQ0Z-KNQLXX-28T2" to-id="1RV2BMQ0Y-21HK8V1-28RV"/>
+            <connection id="1RV2BMQ0Z-5HX1HS-28TL" from-id="1RV2BMQ0Y-HTRSF1-28S9" to-id="1RV2BMQ0Z-KNQLXX-28T2"/>
+            <connection id="1RV2BMQ0Z-Y4L9QG-28VR" from-id="1RV2BMQ0Z-28386ZD-28VG" to-id="1RV2BMQ0Y-295S7BZ-28S6"/>
+            <connection id="1RV2BMQ0Z-3V3FXB-28VX" from-id="1RV2BMQ0Y-23PD2V6-28SH" to-id="1RV2BMQ0Z-28386ZD-28VG"/>
+            <connection id="1RV2BMQ10-YVZ2Z5-28XB" from-id="1RV2BMQ0Z-CF7GYX-28X7" to-id="1RV2BMQ0Y-23PD2V6-28SH"/>
+            <connection id="1RV2BMQ0Z-Q39P9Q-28WD" from-id="1RV2BMQ0Y-NZD9ZZ-28SS" to-id="1RV2BMQ0Z-2B6K31H-28W9"/>
+            <connection id="1RV2BMQ0Z-FNB9JP-28V1" from-id="1RV2BMQ0Y-YPL66Q-28SD" to-id="1RV2BMQ0Z-1YQM1VQ-28TY"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RV2BMQ0Y-YPL66Q-28SD" x="93" y="185" width="52" height="27" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <concept-appearance id="1RV2BMQ0Y-27W1Y0V-28SP" x="372" y="185" width="76" height="39" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <concept-appearance id="1RV2BMQ0Y-HTRSF1-28S9" x="312" y="304" width="40" height="27" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <concept-appearance id="1RV2BMQ0Y-21HK8V1-28RV" x="245" y="415" width="64" height="27" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <concept-appearance id="1RV2BMQ0Y-1KZ0LC4-28SL" x="277" y="185" width="64" height="39" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <concept-appearance id="1RV2BMQ0Y-4YMNWV-28S0" x="247" y="304" width="40" height="27" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <concept-appearance id="1RV2BMQ0Y-9T6Y6Y-28S3" x="93" y="304" width="64" height="27" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <concept-appearance id="1RV2BMQ0Y-NZD9ZZ-28SS" x="265" y="63" width="44" height="27" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <concept-appearance id="1RV2BMQ0Y-295S7BZ-28S6" x="176" y="304" width="52" height="27" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <concept-appearance id="1RV2BMQ0Y-23PD2V6-28SH" x="200" y="185" width="40" height="27" font-name="Helvetica" font-style="plain" background-color="153,255,255,255" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RV2BMQ0Z-CF7GYX-28X7" x="147" y="127" width="14" height="13" font-name="Helvetica" font-style="plain" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <linking-phrase-appearance id="1RV2BMQ0Z-KNQLXX-28T2" x="245" y="364" width="26" height="13" font-name="Helvetica" font-style="plain" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <linking-phrase-appearance id="1RV2BMQ0Z-1QBLL3X-28WS" x="277" y="127" width="14" height="13" font-name="Helvetica" font-style="plain" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <linking-phrase-appearance id="1RV2BMQ0Z-1YQM1VQ-28TY" x="93" y="243" width="14" height="13" font-name="Helvetica" font-style="plain" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <linking-phrase-appearance id="1RV2BMQ0Z-2B6K31H-28W9" x="372" y="127" width="14" height="13" font-name="Helvetica" font-style="plain" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <linking-phrase-appearance id="1RV2BMQ0Z-28386ZD-28VG" x="200" y="243" width="14" height="13" font-name="Helvetica" font-style="plain" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RV2BMQ0Z-YZ9SL6-28VK" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Z-S3JGYC-28VN"/>
+            <connection-appearance id="1RV2BMQ0Z-VYXXGC-28T6" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-10ZY8TN-28W3" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-143FVKQ-28WW" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-12JZXXS-28TR" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-1NT3QVF-28TF" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-1063RD8-28WL" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-1PRYC98-28V7" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Z-D00JH3-28VB"/>
+            <connection-appearance id="1RV2BMQ0Z-1J3RJXD-28X1" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ10-1JTTHNP-28XJ" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Y-1JVQS4C-28SW" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-5HX1HS-28TL" from-pos="center" to-pos="bottom" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-Y4L9QG-28VR" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-3V3FXB-28VX" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ10-YVZ2Z5-28XB" from-pos="center" to-pos="top" type="straight" stylesheet-id="1RV2BMQ10-K0SVFW-28XF"/>
+            <connection-appearance id="1RV2BMQ0Z-Q39P9Q-28WD" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+            <connection-appearance id="1RV2BMQ0Z-FNB9JP-28V1" from-pos="center" to-pos="center" type="straight" stylesheet-id="1RV2BMQ0Y-1BJJFXK-28RY"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RV2BMQ0Y-1BJJFXK-28RY">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RV2BMQ0Z-S3JGYC-28VN">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RV2BMQ0Z-D00JH3-28VB">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1RV2BMQ10-K0SVFW-28XF">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+    </map>
+</cmap>

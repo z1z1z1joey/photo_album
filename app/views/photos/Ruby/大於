@@ -1,0 +1,4 @@
+#判斷2>1嗎?
+if 2>1                #如果2>1
+  puts true          #印出true
+end

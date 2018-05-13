@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>&#x6578;&#x5b57;</dc:title>
+        <dc:creator>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>&#x9673;&#x54a8;&#x8afa;</vcard:FN>
+            <vcard:EMAIL>z1z1z1joey@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>&#x570b;&#x7acb;&#x81fa;&#x7063;&#x79d1;&#x6280;&#x5927;&#x5b78;</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2017-10-22T13:49:43+08:00</dcterms:created>
+        <dcterms:modified>2017-10-23T10:45:38+08:00</dcterms:modified>
+        <dc:language>zh</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.02</dc:publisher>
+        <dc:extent>7901 bytes</dc:extent>
+        <dc:source>cmap:1RSTDZRDM-134H5P-1:1RSTDZSST-15FB061-Z:1RTW90XXB-1S9R0TH-N0X</dc:source>
+    </res-meta>
+    <map width="976" height="358">
+        <concept-list>
+            <concept id="1RTWB5M11-1CG6G93-NTS" label=">=&#xa;&#x5927;&#x65bc;&#x7b49;&#x65bc;"/>
+            <concept id="1RTWB6PNV-1J9VHKR-NWW" label="&#xff1d;&#xff1d;&#xa;&#x7b49;&#x65bc;"/>
+            <concept id="1RTW9WS5Z-1WJB6TB-ND8" label="&#x56db;&#x5247;&#x904b;&#x7b97;"/>
+            <concept id="1RTW9X8TX-4V04C6-NFP" label="&#xff0b;&#x52a0;"/>
+            <concept id="1RTW94RLG-HT29P1-N36" label="upto" short-comment="&#x4f8b;&#x5982;&#xff1a;&#xa;#&#x5f9e;1&#x5370;&#x5230;100&#xa;1.upto(10) { | i |&#xa;   puts i&#xa;}" long-comment=""/>
+            <concept id="1RTWB8VQC-1FRLS27-P0W" label="&#xff5c;&#xff5c;&#x6216;"/>
+            <concept id="1RTWB4TRV-NVGL43-NS7" label=">&#x5927;&#x65bc;"/>
+            <concept id="1RTWB81DF-5YG7ZR-NYY" label="&#xff01;&#x5426;"/>
+            <concept id="1RTWB74V7-LDYQ9G-NXM" label="true&#x771f;"/>
+            <concept id="1RTWB7PVL-1YBVG0W-NY8" label="false&#x5047;"/>
+            <concept id="1RTW9Z7M3-20HTR18-NJW" label="/&#x76f8;&#x9664;&#x5f8c;&#x53d6;&#x6574;&#x6578;"/>
+            <concept id="1RTW90Z9G-277ZLCM-N13" label="&#x6578;&#x5b57;"/>
+            <concept id="1RTW91X32-36ZWYY-N2D" label="times" short-comment="#&#x5370;&#x51fa;5&#x6b21;&#x7684;Ruby&#xa;5.times do&#xa;   puts &quot;Ruby&quot;&#xa;end" long-comment=""/>
+            <concept id="1RTW9Y36T-1HH4XKJ-NGQ" label="-&#x6e1b;"/>
+            <concept id="1RTW9YP52-1LXWDJR-NHQ" label="&#xff0a;&#x4e58;"/>
+            <concept id="1RTW9ZZFS-25YRBXR-NLM" label="&#xff05;&#x76f8;&#x9664;&#x5f8c;&#x53d6;&#x9918;&#x6578;"/>
+            <concept id="1RTWB57GQ-C8QR1W-NSX" label="&lt;&#x5c0f;&#x65bc;"/>
+            <concept id="1RTWB88MW-1W3PHJL-NZD" label="&#xff01;&#xff1d;&#x4e0d;&#x7b49;&#x65bc;"/>
+            <concept id="1RTW917G0-W3JDM2-N1S" label="&#x7269;&#x4ef6;"/>
+            <concept id="1RTW981H7-G2170R-N3M" label="downto" short-comment="&#x4f8b;&#x5982;&#xff1a;&#xa;#&#x5f9e;10&#x5370;&#x5230;1&#xa;10.downto(1) { | i |&#xa;     puts i&#xa;}" long-comment=""/>
+            <concept id="1RTWB65ZR-GXG6MX-NVT" label="&lt;=&#xa;&#x5c0f;&#x65bc;&#x7b49;&#x65bc;"/>
+            <concept id="1RTWB44CN-H8LQFB-NR3" label="&#x908f;&#x8f2f;&#x5224;&#x65b7;"/>
+            <concept id="1RTWB96RJ-1JB20JL-P1N" label="&#xff06;&#xff06;&#x548c;"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RTW9FLBL-1ZN44L1-N46" label="&#x6709;"/>
+            <linking-phrase id="1RTWB0PKF-1SK6CBQ-NNP" label="&#x7684;"/>
+            <linking-phrase id="1RTW9WJX8-13SMY7T-NCF" label="&#x5305;&#x62ec;"/>
+            <linking-phrase id="1RTWB9MJK-9MPQSB-P29" label="&#x6709;"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RTWBB133-QTPBBT-P3Q" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB5M11-1CG6G93-NTS"/>
+            <connection id="1RTWB0Z6W-YF1JC7-NPN" from-id="1RTWB0PKF-1SK6CBQ-NNP" to-id="1RTW9Y36T-1HH4XKJ-NGQ"/>
+            <connection id="1RTW9G5BJ-1QRMKPS-N5P" from-id="1RTW9FLBL-1ZN44L1-N46" to-id="1RTW981H7-G2170R-N3M"/>
+            <connection id="1RTWBBDM5-13TC1T8-P58" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB7PVL-1YBVG0W-NY8"/>
+            <connection id="1RTWBB642-1P599SJ-P4H" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB6PNV-1J9VHKR-NWW"/>
+            <connection id="1RTWBB387-19YG3MN-P43" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB65ZR-GXG6MX-NVT"/>
+            <connection id="1RTWB9MJL-22BQ90P-P2D" from-id="1RTWB44CN-H8LQFB-NR3" to-id="1RTWB9MJK-9MPQSB-P29"/>
+            <connection id="1RTWBBYK6-12HPYQH-P6V" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB96RJ-1JB20JL-P1N"/>
+            <connection id="1RTWB9MJL-20D5JY5-P2L" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB4TRV-NVGL43-NS7"/>
+            <connection id="1RTWB11D4-4YL6ZM-NQ1" from-id="1RTWB0PKF-1SK6CBQ-NNP" to-id="1RTW9YP52-1LXWDJR-NHQ"/>
+            <connection id="1RTWBBQXD-1JGXXG7-P62" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB88MW-1W3PHJL-NZD"/>
+            <connection id="1RTWB14CT-G7QHP4-NQF" from-id="1RTWB0PKF-1SK6CBQ-NNP" to-id="1RTW9Z7M3-20HTR18-NJW"/>
+            <connection id="1RTW9FLBM-LHP775-N4J" from-id="1RTW9FLBL-1ZN44L1-N46" to-id="1RTW91X32-36ZWYY-N2D"/>
+            <connection id="1RTWBBM1H-H18VVL-P5P" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB81DF-5YG7ZR-NYY"/>
+            <connection id="1RTWBB8PK-15L9B60-P4W" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB74V7-LDYQ9G-NXM"/>
+            <connection id="1RTWB0PKG-1LXX70M-NNZ" from-id="1RTWB0PKF-1SK6CBQ-NNP" to-id="1RTW9X8TX-4V04C6-NFP"/>
+            <connection id="1RTW9WY6N-13M9CVH-NDK" from-id="1RTW9WJX8-13SMY7T-NCF" to-id="1RTW9WS5Z-1WJB6TB-ND8"/>
+            <connection id="1RTW9WJX9-SQ9T5C-NCQ" from-id="1RTW9WJX8-13SMY7T-NCF" to-id="1RTW917G0-W3JDM2-N1S"/>
+            <connection id="1RTW9FLBM-10857F5-N4B" from-id="1RTW917G0-W3JDM2-N1S" to-id="1RTW9FLBL-1ZN44L1-N46"/>
+            <connection id="1RTW9WJX8-Z6GFLF-NCJ" from-id="1RTW90Z9G-277ZLCM-N13" to-id="1RTW9WJX8-13SMY7T-NCF"/>
+            <connection id="1RTWB9Z56-10FB0TG-P3B" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB57GQ-C8QR1W-NSX"/>
+            <connection id="1RTWB0PKG-18STDCP-NNS" from-id="1RTW9WS5Z-1WJB6TB-ND8" to-id="1RTWB0PKF-1SK6CBQ-NNP"/>
+            <connection id="1RTW9G29K-FG26M2-N59" from-id="1RTW9FLBL-1ZN44L1-N46" to-id="1RTW94RLG-HT29P1-N36"/>
+            <connection id="1RTWBBVJQ-2R1V64-P6G" from-id="1RTWB9MJK-9MPQSB-P29" to-id="1RTWB8VQC-1FRLS27-P0W"/>
+            <connection id="1RTWBCRDT-28M9671-P7F" from-id="1RTW9WJX8-13SMY7T-NCF" to-id="1RTWB44CN-H8LQFB-NR3"/>
+            <connection id="1RTWB17BV-26LC5WQ-NQT" from-id="1RTWB0PKF-1SK6CBQ-NNP" to-id="1RTW9ZZFS-25YRBXR-NLM"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RTWB5M11-1CG6G93-NTS" x="281" y="324" width="64" height="39"/>
+            <concept-appearance id="1RTWB6PNV-1J9VHKR-NWW" x="348" y="239" width="40" height="38"/>
+            <concept-appearance id="1RTW9WS5Z-1WJB6TB-ND8" x="824" y="98" width="64" height="27"/>
+            <concept-appearance id="1RTW9X8TX-4V04C6-NFP" x="825" y="159" width="40" height="27"/>
+            <concept-appearance id="1RTW94RLG-HT29P1-N36" x="619" y="159" width="43" height="27"/>
+            <concept-appearance id="1RTWB8VQC-1FRLS27-P0W" x="433" y="159" width="52" height="28"/>
+            <concept-appearance id="1RTWB4TRV-NVGL43-NS7" x="49" y="159" width="50" height="27"/>
+            <concept-appearance id="1RTWB81DF-5YG7ZR-NYY" x="238" y="367" width="40" height="26"/>
+            <concept-appearance id="1RTWB74V7-LDYQ9G-NXM" x="84" y="196" width="53" height="27"/>
+            <concept-appearance id="1RTWB7PVL-1YBVG0W-NY8" x="157" y="281" width="56" height="27"/>
+            <concept-appearance id="1RTW9Z7M3-20HTR18-NJW" x="698" y="159" width="94" height="28"/>
+            <concept-appearance id="1RTW90Z9G-277ZLCM-N13" x="541" y="38" width="40" height="27"/>
+            <concept-appearance id="1RTW91X32-36ZWYY-N2D" x="563" y="159" width="49" height="25"/>
+            <concept-appearance id="1RTW9Y36T-1HH4XKJ-NGQ" x="871" y="159" width="33" height="27"/>
+            <concept-appearance id="1RTW9YP52-1LXWDJR-NHQ" x="775" y="159" width="40" height="27"/>
+            <concept-appearance id="1RTW9ZZFS-25YRBXR-NLM" x="948" y="159" width="100" height="27"/>
+            <concept-appearance id="1RTWB57GQ-C8QR1W-NSX" x="317" y="281" width="50" height="27"/>
+            <concept-appearance id="1RTWB88MW-1W3PHJL-NZD" x="397" y="196" width="76" height="27"/>
+            <concept-appearance id="1RTW917G0-W3JDM2-N1S" x="561" y="98" width="40" height="27"/>
+            <concept-appearance id="1RTW981H7-G2170R-N3M" x="499" y="159" width="60" height="25"/>
+            <concept-appearance id="1RTWB65ZR-GXG6MX-NVT" x="195" y="324" width="64" height="39"/>
+            <concept-appearance id="1RTWB44CN-H8LQFB-NR3" x="238" y="98" width="64" height="27"/>
+            <concept-appearance id="1RTWB96RJ-1JB20JL-P1N" x="121" y="239" width="52" height="27"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RTW9FLBL-1ZN44L1-N46" x="561" y="128" width="14" height="13"/>
+            <linking-phrase-appearance id="1RTWB0PKF-1SK6CBQ-NNP" x="824" y="128" width="14" height="13"/>
+            <linking-phrase-appearance id="1RTW9WJX8-13SMY7T-NCF" x="541" y="68" width="26" height="13"/>
+            <linking-phrase-appearance id="1RTWB9MJK-9MPQSB-P29" x="238" y="128" width="14" height="13"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RTWBB133-QTPBBT-P3Q" from-pos="center" to-pos="center" type="straight">
+                <control-point x="280" y="159"/>
+                <control-point x="280" y="196"/>
+                <control-point x="280" y="239"/>
+                <control-point x="280" y="281"/>
+            </connection-appearance>
+            <connection-appearance id="1RTWB0Z6W-YF1JC7-NPN" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW9G5BJ-1QRMKPS-N5P" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTWBBDM5-13TC1T8-P58" from-pos="center" to-pos="center" type="straight">
+                <control-point x="157" y="159"/>
+                <control-point x="157" y="196"/>
+                <control-point x="157" y="239"/>
+            </connection-appearance>
+            <connection-appearance id="1RTWBB642-1P599SJ-P4H" from-pos="center" to-pos="center" type="straight">
+                <control-point x="347" y="159"/>
+                <control-point x="347" y="196"/>
+            </connection-appearance>
+            <connection-appearance id="1RTWBB387-19YG3MN-P43" from-pos="center" to-pos="center" type="straight">
+                <control-point x="195" y="159"/>
+                <control-point x="195" y="196"/>
+                <control-point x="195" y="239"/>
+                <control-point x="195" y="281"/>
+            </connection-appearance>
+            <connection-appearance id="1RTWB9MJL-22BQ90P-P2D" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTWBBYK6-12HPYQH-P6V" from-pos="center" to-pos="center" type="straight">
+                <control-point x="121" y="159"/>
+                <control-point x="121" y="196"/>
+            </connection-appearance>
+            <connection-appearance id="1RTWB9MJL-20D5JY5-P2L" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTWB11D4-4YL6ZM-NQ1" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTWBBQXD-1JGXXG7-P62" from-pos="center" to-pos="center" type="straight">
+                <control-point x="396" y="159"/>
+            </connection-appearance>
+            <connection-appearance id="1RTWB14CT-G7QHP4-NQF" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW9FLBM-LHP775-N4J" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTWBBM1H-H18VVL-P5P" from-pos="center" to-pos="center" type="straight">
+                <control-point x="237" y="159"/>
+                <control-point x="237" y="196"/>
+                <control-point x="237" y="239"/>
+                <control-point x="237" y="281"/>
+                <control-point x="237" y="324"/>
+            </connection-appearance>
+            <connection-appearance id="1RTWBB8PK-15L9B60-P4W" from-pos="center" to-pos="center" type="straight">
+                <control-point x="84" y="159"/>
+            </connection-appearance>
+            <connection-appearance id="1RTWB0PKG-1LXX70M-NNZ" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW9WY6N-13M9CVH-NDK" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW9WJX9-SQ9T5C-NCQ" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW9FLBM-10857F5-N4B" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW9WJX8-Z6GFLF-NCJ" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTWB9Z56-10FB0TG-P3B" from-pos="center" to-pos="center" type="straight">
+                <control-point x="316" y="159"/>
+                <control-point x="316" y="196"/>
+                <control-point x="316" y="239"/>
+            </connection-appearance>
+            <connection-appearance id="1RTWB0PKG-18STDCP-NNS" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTW9G29K-FG26M2-N59" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTWBBVJQ-2R1V64-P6G" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTWBCRDT-28M9671-P7F" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="1RTWB17BV-26LC5WQ-NQT" from-pos="center" to-pos="center" type="straight"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="1RTW90XXB-1S9R0TH-N0X">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

@@ -1,4 +1,5 @@
 class PhotosController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_photo, :only => [:show, :edit, :update, :destroy]
   # 以下接續原有程式碼
   def index
