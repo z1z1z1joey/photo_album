@@ -38,7 +38,8 @@ gem 'omniauth-facebook'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :production do
-  gem 'pg'
+  #gem 'pg'
+  gem 'mysql2', '< 0.5'
 end
 
 
